@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage line-rate="0.749562171628722" branch-rate="0" lines-covered="2568" lines-valid="3426" branches-covered="0" branches-valid="0" complexity="0" version="3.6.1" timestamp="2022-11-10 09:28:27">
+<coverage line-rate="0.749562171628722" branch-rate="0" lines-covered="2568" lines-valid="3426" branches-covered="0" branches-valid="0" complexity="0" version="3.6.1" timestamp="2022-11-10 09:50:54">
   <sources/>
   <packages>
     <package name="teal.data" line-rate="0.749562171628722" branch-rate="0" complexity="0">
