@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage line-rate="0.742603550295858" branch-rate="0" lines-covered="2510" lines-valid="3380" branches-covered="0" branches-valid="0" complexity="0" version="3.6.1" timestamp="2023-02-01 14:49:13">
+<coverage line-rate="0.742603550295858" branch-rate="0" lines-covered="2510" lines-valid="3380" branches-covered="0" branches-valid="0" complexity="0" version="3.6.1" timestamp="2023-02-01 16:46:34">
   <sources/>
   <packages>
     <package name="teal.data" line-rate="0.742603550295858" branch-rate="0" complexity="0">
@@ -359,11 +359,11 @@
             </method>
             <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
               <lines>
-                <line number="115" hits="186" branch="false"/>
-                <line number="407" hits="296" branch="false"/>
+                <line number="115" hits="155" branch="false"/>
+                <line number="407" hits="222" branch="false"/>
                 <line number="602" hits="0" branch="false"/>
-                <line number="609" hits="1218" branch="false"/>
-                <line number="576" hits="260" branch="false"/>
+                <line number="609" hits="1044" branch="false"/>
+                <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
             <method name="check_run_output" signature="" line-rate="1" branch-rate="0">
@@ -416,7 +416,7 @@
             <line number="83" hits="1" branch="false"/>
             <line number="92" hits="107" branch="false"/>
             <line number="100" hits="3" branch="false"/>
-            <line number="115" hits="186" branch="false"/>
+            <line number="115" hits="155" branch="false"/>
             <line number="119" hits="108" branch="false"/>
             <line number="120" hits="8" branch="false"/>
             <line number="121" hits="8" branch="false"/>
@@ -3190,28 +3190,28 @@
           <methods>
             <method name="deep_clone_r6" signature="" line-rate="1" branch-rate="0">
               <lines>
-                <line number="11" hits="1960" branch="false"/>
-                <line number="12" hits="102" branch="false"/>
-                <line number="13" hits="1858" branch="false"/>
-                <line number="14" hits="38" branch="false"/>
-                <line number="15" hits="1820" branch="false"/>
-                <line number="16" hits="6" branch="false"/>
-                <line number="17" hits="6" branch="false"/>
-                <line number="18" hits="6" branch="false"/>
-                <line number="20" hits="1814" branch="false"/>
+                <line number="11" hits="1629" branch="false"/>
+                <line number="12" hits="86" branch="false"/>
+                <line number="13" hits="1543" branch="false"/>
+                <line number="14" hits="31" branch="false"/>
+                <line number="15" hits="1512" branch="false"/>
+                <line number="16" hits="5" branch="false"/>
+                <line number="17" hits="5" branch="false"/>
+                <line number="18" hits="5" branch="false"/>
+                <line number="20" hits="1507" branch="false"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="1960" branch="false"/>
-            <line number="12" hits="102" branch="false"/>
-            <line number="13" hits="1858" branch="false"/>
-            <line number="14" hits="38" branch="false"/>
-            <line number="15" hits="1820" branch="false"/>
-            <line number="16" hits="6" branch="false"/>
-            <line number="17" hits="6" branch="false"/>
-            <line number="18" hits="6" branch="false"/>
-            <line number="20" hits="1814" branch="false"/>
+            <line number="11" hits="1629" branch="false"/>
+            <line number="12" hits="86" branch="false"/>
+            <line number="13" hits="1543" branch="false"/>
+            <line number="14" hits="31" branch="false"/>
+            <line number="15" hits="1512" branch="false"/>
+            <line number="16" hits="5" branch="false"/>
+            <line number="17" hits="5" branch="false"/>
+            <line number="18" hits="5" branch="false"/>
+            <line number="20" hits="1507" branch="false"/>
           </lines>
         </class>
         <class name="get_attrs.R" filename="R/get_attrs.R" line-rate="0" branch-rate="0" complexity="0">
@@ -7513,11 +7513,11 @@
             </method>
             <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
               <lines>
-                <line number="115" hits="186" branch="false"/>
-                <line number="407" hits="296" branch="false"/>
+                <line number="115" hits="155" branch="false"/>
+                <line number="407" hits="222" branch="false"/>
                 <line number="602" hits="0" branch="false"/>
-                <line number="609" hits="1218" branch="false"/>
-                <line number="576" hits="260" branch="false"/>
+                <line number="609" hits="1044" branch="false"/>
+                <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
             <method name="check_combined_code" signature="" line-rate="1" branch-rate="0">
@@ -7801,7 +7801,7 @@
             <line number="387" hits="6" branch="false"/>
             <line number="389" hits="3" branch="false"/>
             <line number="390" hits="3" branch="false"/>
-            <line number="407" hits="296" branch="false"/>
+            <line number="407" hits="222" branch="false"/>
             <line number="410" hits="4" branch="false"/>
             <line number="411" hits="4" branch="false"/>
             <line number="412" hits="4" branch="false"/>
@@ -8527,11 +8527,11 @@
             </method>
             <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
               <lines>
-                <line number="115" hits="186" branch="false"/>
-                <line number="407" hits="296" branch="false"/>
+                <line number="115" hits="155" branch="false"/>
+                <line number="407" hits="222" branch="false"/>
                 <line number="602" hits="0" branch="false"/>
-                <line number="609" hits="1218" branch="false"/>
-                <line number="576" hits="260" branch="false"/>
+                <line number="609" hits="1044" branch="false"/>
+                <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
             <method name="check_open_fun" signature="" line-rate="0.428571428571429" branch-rate="0">
@@ -10800,11 +10800,11 @@
             </method>
             <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
               <lines>
-                <line number="115" hits="186" branch="false"/>
-                <line number="407" hits="296" branch="false"/>
+                <line number="115" hits="155" branch="false"/>
+                <line number="407" hits="222" branch="false"/>
                 <line number="602" hits="0" branch="false"/>
-                <line number="609" hits="1218" branch="false"/>
-                <line number="576" hits="260" branch="false"/>
+                <line number="609" hits="1044" branch="false"/>
+                <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
             <method name="get_class_colnames" signature="" line-rate="0.5" branch-rate="0">
@@ -11277,7 +11277,7 @@
             <line number="600" hits="55" branch="false"/>
             <line number="601" hits="55" branch="false"/>
             <line number="603" hits="55" branch="false"/>
-            <line number="609" hits="1218" branch="false"/>
+            <line number="609" hits="1044" branch="false"/>
             <line number="612" hits="3" branch="false"/>
             <line number="613" hits="3" branch="false"/>
             <line number="614" hits="3" branch="false"/>
@@ -13208,11 +13208,11 @@
             </method>
             <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
               <lines>
-                <line number="115" hits="186" branch="false"/>
-                <line number="407" hits="296" branch="false"/>
+                <line number="115" hits="155" branch="false"/>
+                <line number="407" hits="222" branch="false"/>
                 <line number="602" hits="0" branch="false"/>
-                <line number="609" hits="1218" branch="false"/>
-                <line number="576" hits="260" branch="false"/>
+                <line number="609" hits="1044" branch="false"/>
+                <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
             <method name="get_pull_code_class" signature="" line-rate="1" branch-rate="0">
@@ -13606,7 +13606,7 @@
             <line number="568" hits="0" branch="false"/>
             <line number="569" hits="0" branch="false"/>
             <line number="570" hits="0" branch="false"/>
-            <line number="576" hits="260" branch="false"/>
+            <line number="576" hits="208" branch="false"/>
             <line number="579" hits="258" branch="false"/>
             <line number="580" hits="258" branch="false"/>
             <line number="581" hits="258" branch="false"/>
