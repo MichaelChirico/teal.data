@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage line-rate="0.736199883788495" branch-rate="0" lines-covered="2534" lines-valid="3442" branches-covered="0" branches-valid="0" complexity="0" version="3.6.1" timestamp="2023-02-27 08:34:09">
+<coverage line-rate="0.736199883788495" branch-rate="0" lines-covered="2534" lines-valid="3442" branches-covered="0" branches-valid="0" complexity="0" version="3.6.1" timestamp="2023-02-27 10:03:15">
   <sources/>
   <packages>
     <package name="teal.data" line-rate="0.736199883788495" branch-rate="0" complexity="0">
@@ -5818,56 +5818,56 @@
           <methods>
             <method name="new_tdata" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="44" hits="0" branch="false"/>
-                <line number="45" hits="0" branch="false"/>
-                <line number="46" hits="0" branch="false"/>
-                <line number="47" hits="0" branch="false"/>
-                <line number="48" hits="0" branch="false"/>
                 <line number="49" hits="0" branch="false"/>
                 <line number="50" hits="0" branch="false"/>
+                <line number="51" hits="0" branch="false"/>
                 <line number="52" hits="0" branch="false"/>
                 <line number="53" hits="0" branch="false"/>
                 <line number="54" hits="0" branch="false"/>
-                <line number="56" hits="0" branch="false"/>
+                <line number="55" hits="0" branch="false"/>
                 <line number="57" hits="0" branch="false"/>
+                <line number="58" hits="0" branch="false"/>
+                <line number="59" hits="0" branch="false"/>
                 <line number="61" hits="0" branch="false"/>
                 <line number="62" hits="0" branch="false"/>
-                <line number="63" hits="0" branch="false"/>
-                <line number="65" hits="0" branch="false"/>
                 <line number="66" hits="0" branch="false"/>
                 <line number="67" hits="0" branch="false"/>
                 <line number="68" hits="0" branch="false"/>
-                <line number="69" hits="0" branch="false"/>
                 <line number="70" hits="0" branch="false"/>
-                <line number="83" hits="0" branch="false"/>
-                <line number="84" hits="0" branch="false"/>
-                <line number="85" hits="0" branch="false"/>
-                <line number="86" hits="0" branch="false"/>
+                <line number="71" hits="0" branch="false"/>
+                <line number="72" hits="0" branch="false"/>
+                <line number="73" hits="0" branch="false"/>
+                <line number="74" hits="0" branch="false"/>
+                <line number="75" hits="0" branch="false"/>
                 <line number="87" hits="0" branch="false"/>
+                <line number="88" hits="0" branch="false"/>
+                <line number="89" hits="0" branch="false"/>
                 <line number="90" hits="0" branch="false"/>
                 <line number="91" hits="0" branch="false"/>
+                <line number="94" hits="0" branch="false"/>
+                <line number="95" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="tdata2env" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="111" hits="0" branch="false"/>
-                <line number="112" hits="0" branch="false"/>
+                <line number="115" hits="0" branch="false"/>
+                <line number="116" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_code.tdata" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="121" hits="0" branch="false"/>
+                <line number="125" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_code_tdata" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="133" hits="0" branch="false"/>
-                <line number="134" hits="0" branch="false"/>
+                <line number="137" hits="0" branch="false"/>
+                <line number="138" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_join_keys" signature="" line-rate="0.75" branch-rate="0">
               <lines>
-                <line number="143" hits="0" branch="false"/>
+                <line number="147" hits="0" branch="false"/>
                 <line number="181" hits="179" branch="false"/>
                 <line number="182" hits="16" branch="false"/>
                 <line number="184" hits="163" branch="false"/>
@@ -5875,79 +5875,79 @@
             </method>
             <method name="get_join_keys.tdata" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="150" hits="0" branch="false"/>
+                <line number="154" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_join_keys.default" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="157" hits="0" branch="false"/>
+                <line number="161" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_metadata" signature="" line-rate="0.333333333333333" branch-rate="0">
               <lines>
-                <line number="166" hits="0" branch="false"/>
-                <line number="167" hits="0" branch="false"/>
+                <line number="170" hits="0" branch="false"/>
+                <line number="171" hits="0" branch="false"/>
                 <line number="241" hits="103" branch="false"/>
               </lines>
             </method>
             <method name="get_metadata.tdata" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="173" hits="0" branch="false"/>
-                <line number="174" hits="0" branch="false"/>
-                <line number="175" hits="0" branch="false"/>
                 <line number="177" hits="0" branch="false"/>
+                <line number="178" hits="0" branch="false"/>
+                <line number="179" hits="0" branch="false"/>
+                <line number="181" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_metadata.default" signature="" line-rate="0" branch-rate="0">
               <lines>
-                <line number="183" hits="0" branch="false"/>
+                <line number="187" hits="0" branch="false"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="44" hits="0" branch="false"/>
-            <line number="45" hits="0" branch="false"/>
-            <line number="46" hits="0" branch="false"/>
-            <line number="47" hits="0" branch="false"/>
-            <line number="48" hits="0" branch="false"/>
             <line number="49" hits="0" branch="false"/>
             <line number="50" hits="0" branch="false"/>
+            <line number="51" hits="0" branch="false"/>
             <line number="52" hits="0" branch="false"/>
             <line number="53" hits="0" branch="false"/>
             <line number="54" hits="0" branch="false"/>
-            <line number="56" hits="0" branch="false"/>
+            <line number="55" hits="0" branch="false"/>
             <line number="57" hits="0" branch="false"/>
+            <line number="58" hits="0" branch="false"/>
+            <line number="59" hits="0" branch="false"/>
             <line number="61" hits="0" branch="false"/>
             <line number="62" hits="0" branch="false"/>
-            <line number="63" hits="0" branch="false"/>
-            <line number="65" hits="0" branch="false"/>
             <line number="66" hits="0" branch="false"/>
             <line number="67" hits="0" branch="false"/>
             <line number="68" hits="0" branch="false"/>
-            <line number="69" hits="0" branch="false"/>
             <line number="70" hits="0" branch="false"/>
-            <line number="83" hits="0" branch="false"/>
-            <line number="84" hits="0" branch="false"/>
-            <line number="85" hits="0" branch="false"/>
-            <line number="86" hits="0" branch="false"/>
+            <line number="71" hits="0" branch="false"/>
+            <line number="72" hits="0" branch="false"/>
+            <line number="73" hits="0" branch="false"/>
+            <line number="74" hits="0" branch="false"/>
+            <line number="75" hits="0" branch="false"/>
             <line number="87" hits="0" branch="false"/>
+            <line number="88" hits="0" branch="false"/>
+            <line number="89" hits="0" branch="false"/>
             <line number="90" hits="0" branch="false"/>
             <line number="91" hits="0" branch="false"/>
-            <line number="111" hits="0" branch="false"/>
-            <line number="112" hits="0" branch="false"/>
-            <line number="121" hits="0" branch="false"/>
-            <line number="133" hits="0" branch="false"/>
-            <line number="134" hits="0" branch="false"/>
-            <line number="143" hits="0" branch="false"/>
-            <line number="150" hits="0" branch="false"/>
-            <line number="157" hits="0" branch="false"/>
-            <line number="166" hits="0" branch="false"/>
-            <line number="167" hits="0" branch="false"/>
-            <line number="173" hits="0" branch="false"/>
-            <line number="174" hits="0" branch="false"/>
-            <line number="175" hits="0" branch="false"/>
+            <line number="94" hits="0" branch="false"/>
+            <line number="95" hits="0" branch="false"/>
+            <line number="115" hits="0" branch="false"/>
+            <line number="116" hits="0" branch="false"/>
+            <line number="125" hits="0" branch="false"/>
+            <line number="137" hits="0" branch="false"/>
+            <line number="138" hits="0" branch="false"/>
+            <line number="147" hits="0" branch="false"/>
+            <line number="154" hits="0" branch="false"/>
+            <line number="161" hits="0" branch="false"/>
+            <line number="170" hits="0" branch="false"/>
+            <line number="171" hits="0" branch="false"/>
             <line number="177" hits="0" branch="false"/>
-            <line number="183" hits="0" branch="false"/>
+            <line number="178" hits="0" branch="false"/>
+            <line number="179" hits="0" branch="false"/>
+            <line number="181" hits="0" branch="false"/>
+            <line number="187" hits="0" branch="false"/>
           </lines>
         </class>
         <class name="teal_data.R" filename="R/teal_data.R" line-rate="0.935483870967742" branch-rate="0" complexity="0">
@@ -6348,7 +6348,7 @@
             </method>
             <method name="get_join_keys" signature="" line-rate="0.75" branch-rate="0">
               <lines>
-                <line number="143" hits="0" branch="false"/>
+                <line number="147" hits="0" branch="false"/>
                 <line number="181" hits="179" branch="false"/>
                 <line number="182" hits="16" branch="false"/>
                 <line number="184" hits="163" branch="false"/>
@@ -10544,8 +10544,8 @@
             </method>
             <method name="get_metadata" signature="" line-rate="0.333333333333333" branch-rate="0">
               <lines>
-                <line number="166" hits="0" branch="false"/>
-                <line number="167" hits="0" branch="false"/>
+                <line number="170" hits="0" branch="false"/>
+                <line number="171" hits="0" branch="false"/>
                 <line number="241" hits="103" branch="false"/>
               </lines>
             </method>
