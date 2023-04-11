@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage line-rate="0.748817966903073" branch-rate="0" lines-covered="2534" lines-valid="3384" branches-covered="0" branches-valid="0" complexity="0" version="3.6.1" timestamp="2023-04-06 13:45:51">
-  <sources/>
+<!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
+<coverage line-rate="0.748817966903073" branch-rate="0" lines-covered="2534" lines-valid="3384" branches-covered="0" branches-valid="0" complexity="0" version="3.6.2" timestamp="2023-04-11 13:56:50">
+  <sources>
+    <source>/__w/teal.data/teal.data/teal.data</source>
+  </sources>
   <packages>
     <package name="teal.data" line-rate="0.748817966903073" branch-rate="0" complexity="0">
       <classes>
         <class name="as_cdisc.R" filename="R/as_cdisc.R" line-rate="0.897435897435897" branch-rate="0" complexity="0">
           <methods>
-            <method name="as_cdisc" signature="" line-rate="1" branch-rate="0">
+            <method name="as_cdisc" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="16" hits="58" branch="false"/>
                 <line number="17" hits="2" branch="false"/>
                 <line number="19" hits="56" branch="false"/>
               </lines>
             </method>
-            <method name="as_cdisc.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="as_cdisc.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="47" hits="33" branch="false"/>
                 <line number="48" hits="32" branch="false"/>
@@ -35,7 +38,7 @@
                 <line number="65" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="as_cdisc.TealDatasetConnector" signature="" line-rate="0.777777777777778" branch-rate="0">
+            <method name="as_cdisc.TealDatasetConnector" signature="" line-rate="0.777777777777778" branch-rate="0" complexity="0">
               <lines>
                 <line number="102" hits="23" branch="false"/>
                 <line number="103" hits="23" branch="false"/>
@@ -102,7 +105,7 @@
         </class>
         <class name="Callable.R" filename="R/Callable.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -309,7 +312,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="assign_to_env" signature="" line-rate="1" branch-rate="0">
+            <method name="assign_to_env" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="39" hits="63" branch="false"/>
                 <line number="40" hits="54" branch="false"/>
@@ -318,7 +321,7 @@
                 <line number="47" hits="63" branch="false"/>
               </lines>
             </method>
-            <method name="run" signature="" line-rate="0.65" branch-rate="0">
+            <method name="run" signature="" line-rate="0.65" branch-rate="0" complexity="0">
               <lines>
                 <line number="65" hits="151" branch="false"/>
                 <line number="66" hits="151" branch="false"/>
@@ -342,7 +345,7 @@
                 <line number="69" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0">
+            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="154" branch="false"/>
                 <line number="106" hits="0" branch="false"/>
@@ -351,13 +354,13 @@
                 <line number="378" hits="146" branch="false"/>
               </lines>
             </method>
-            <method name="get_error_message" signature="" line-rate="1" branch-rate="0">
+            <method name="get_error_message" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="100" hits="3" branch="false"/>
                 <line number="191" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
+            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0" complexity="0">
               <lines>
                 <line number="115" hits="155" branch="false"/>
                 <line number="409" hits="222" branch="false"/>
@@ -366,7 +369,7 @@
                 <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
-            <method name="check_run_output" signature="" line-rate="1" branch-rate="0">
+            <method name="check_run_output" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="119" hits="151" branch="false"/>
                 <line number="120" hits="8" branch="false"/>
@@ -441,7 +444,7 @@
         </class>
         <class name="CallableCode.R" filename="R/CallableCode.R" line-rate="0.944444444444444" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -648,7 +651,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="get_call" signature="" line-rate="0.954545454545455" branch-rate="0">
+            <method name="get_call" signature="" line-rate="0.954545454545455" branch-rate="0" complexity="0">
               <lines>
                 <line number="61" hits="38" branch="false"/>
                 <line number="62" hits="38" branch="false"/>
@@ -674,7 +677,7 @@
                 <line number="80" hits="482" branch="false"/>
               </lines>
             </method>
-            <method name="get_callable_code" signature="" line-rate="1" branch-rate="0">
+            <method name="get_callable_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="88" hits="19" branch="false"/>
                 <line number="89" hits="19" branch="false"/>
@@ -688,7 +691,7 @@
                 <line number="98" hits="4" branch="false"/>
               </lines>
             </method>
-            <method name="callable_code" signature="" line-rate="1" branch-rate="0">
+            <method name="callable_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="126" hits="19" branch="false"/>
               </lines>
@@ -735,7 +738,7 @@
         </class>
         <class name="CallableFunction.R" filename="R/CallableFunction.R" line-rate="0.965909090909091" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -942,12 +945,12 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="get_args" signature="" line-rate="1" branch-rate="0">
+            <method name="get_args" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="49" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="get_call" signature="" line-rate="0.954545454545455" branch-rate="0">
+            <method name="get_call" signature="" line-rate="0.954545454545455" branch-rate="0" complexity="0">
               <lines>
                 <line number="61" hits="38" branch="false"/>
                 <line number="62" hits="38" branch="false"/>
@@ -973,7 +976,7 @@
                 <line number="80" hits="482" branch="false"/>
               </lines>
             </method>
-            <method name="set_args" signature="" line-rate="1" branch-rate="0">
+            <method name="set_args" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="93" hits="96" branch="false"/>
                 <line number="94" hits="6" branch="false"/>
@@ -995,7 +998,7 @@
                 <line number="339" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="set_arg_value" signature="" line-rate="1" branch-rate="0">
+            <method name="set_arg_value" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="120" hits="150" branch="false"/>
                 <line number="121" hits="150" branch="false"/>
@@ -1008,7 +1011,7 @@
                 <line number="132" hits="150" branch="false"/>
               </lines>
             </method>
-            <method name="refresh" signature="" line-rate="0.5" branch-rate="0">
+            <method name="refresh" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="146" hits="360" branch="false"/>
                 <line number="150" hits="360" branch="false"/>
@@ -1030,14 +1033,14 @@
                 <line number="91" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_callable_function" signature="" line-rate="1" branch-rate="0">
+            <method name="get_callable_function" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="176" hits="209" branch="false"/>
                 <line number="177" hits="11" branch="false"/>
                 <line number="179" hits="198" branch="false"/>
               </lines>
             </method>
-            <method name="get_call_from_prefixed_function" signature="" line-rate="1" branch-rate="0">
+            <method name="get_call_from_prefixed_function" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="186" hits="11" branch="false"/>
                 <line number="187" hits="11" branch="false"/>
@@ -1046,7 +1049,7 @@
                 <line number="191" hits="10" branch="false"/>
               </lines>
             </method>
-            <method name="get_call_from_symbol" signature="" line-rate="1" branch-rate="0">
+            <method name="get_call_from_symbol" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="196" hits="198" branch="false"/>
                 <line number="197" hits="194" branch="false"/>
@@ -1059,17 +1062,17 @@
                 <line number="206" hits="194" branch="false"/>
               </lines>
             </method>
-            <method name="is_prefixed_function" signature="" line-rate="1" branch-rate="0">
+            <method name="is_prefixed_function" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="216" hits="18" branch="false"/>
               </lines>
             </method>
-            <method name="callable_function" signature="" line-rate="1" branch-rate="0">
+            <method name="callable_function" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="242" hits="150" branch="false"/>
               </lines>
             </method>
-            <method name="get_binding_name" signature="" line-rate="1" branch-rate="0">
+            <method name="get_binding_name" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="266" hits="82" branch="false"/>
                 <line number="267" hits="82" branch="false"/>
@@ -1177,7 +1180,7 @@
         </class>
         <class name="CallablePythonCode.R" filename="R/CallablePythonCode.R" line-rate="0" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -1384,7 +1387,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_object" signature="" line-rate="0" branch-rate="0">
+            <method name="set_object" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="42" hits="0" branch="false"/>
                 <line number="43" hits="0" branch="false"/>
@@ -1392,7 +1395,7 @@
                 <line number="45" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="run" signature="" line-rate="0.65" branch-rate="0">
+            <method name="run" signature="" line-rate="0.65" branch-rate="0" complexity="0">
               <lines>
                 <line number="65" hits="151" branch="false"/>
                 <line number="66" hits="151" branch="false"/>
@@ -1416,7 +1419,7 @@
                 <line number="69" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="refresh" signature="" line-rate="0.5" branch-rate="0">
+            <method name="refresh" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="146" hits="360" branch="false"/>
                 <line number="150" hits="360" branch="false"/>
@@ -1438,7 +1441,7 @@
                 <line number="91" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="eval" signature="" line-rate="0.357142857142857" branch-rate="0">
+            <method name="eval" signature="" line-rate="0.357142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="115" hits="0" branch="false"/>
                 <line number="116" hits="0" branch="false"/>
@@ -1484,7 +1487,7 @@
                 <line number="145" hits="84" branch="false"/>
               </lines>
             </method>
-            <method name="python_code" signature="" line-rate="0" branch-rate="0">
+            <method name="python_code" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="213" hits="0" branch="false"/>
                 <line number="215" hits="0" branch="false"/>
@@ -1559,7 +1562,7 @@
         </class>
         <class name="cdisc_data.R" filename="R/cdisc_data.R" line-rate="0.977777777777778" branch-rate="0" complexity="0">
           <methods>
-            <method name="cdisc_data" signature="" line-rate="0.975609756097561" branch-rate="0">
+            <method name="cdisc_data" signature="" line-rate="0.975609756097561" branch-rate="0" complexity="0">
               <lines>
                 <line number="73" hits="21" branch="false"/>
                 <line number="74" hits="21" branch="false"/>
@@ -1604,7 +1607,7 @@
                 <line number="125" hits="18" branch="false"/>
               </lines>
             </method>
-            <method name="cdisc_data_file" signature="" line-rate="1" branch-rate="0">
+            <method name="cdisc_data_file" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="161" hits="2" branch="false"/>
                 <line number="162" hits="2" branch="false"/>
@@ -1663,7 +1666,7 @@
         </class>
         <class name="CDISCTealDataConnector.R" filename="R/CDISCTealDataConnector.R" line-rate="0.85" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -1870,7 +1873,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0">
+            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="49" hits="0" branch="false"/>
                 <line number="121" hits="38" branch="false"/>
@@ -1880,7 +1883,7 @@
                 <line number="201" hits="240" branch="false"/>
               </lines>
             </method>
-            <method name="cdisc_data_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="cdisc_data_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="90" hits="9" branch="false"/>
                 <line number="91" hits="7" branch="false"/>
@@ -1913,7 +1916,7 @@
         </class>
         <class name="CDISCTealDataset.R" filename="R/CDISCTealDataset.R" line-rate="0.760869565217391" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -2120,7 +2123,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="recreate" signature="" line-rate="1" branch-rate="0">
+            <method name="recreate" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="91" hits="8" branch="false"/>
                 <line number="92" hits="8" branch="false"/>
@@ -2147,7 +2150,7 @@
                 <line number="105" hits="53" branch="false"/>
               </lines>
             </method>
-            <method name="get_attrs" signature="" line-rate="0" branch-rate="0">
+            <method name="get_attrs" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="108" hits="0" branch="false"/>
                 <line number="109" hits="0" branch="false"/>
@@ -2171,7 +2174,7 @@
                 <line number="151" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0">
+            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="49" hits="0" branch="false"/>
                 <line number="121" hits="38" branch="false"/>
@@ -2181,7 +2184,7 @@
                 <line number="201" hits="240" branch="false"/>
               </lines>
             </method>
-            <method name="set_parent" signature="" line-rate="1" branch-rate="0">
+            <method name="set_parent" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="128" hits="83" branch="false"/>
                 <line number="129" hits="83" branch="false"/>
@@ -2192,7 +2195,7 @@
                 <line number="130" hits="43" branch="false"/>
               </lines>
             </method>
-            <method name="cdisc_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="cdisc_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="168" hits="68" branch="false"/>
                 <line number="169" hits="68" branch="false"/>
@@ -2206,7 +2209,7 @@
                 <line number="177" hits="68" branch="false"/>
               </lines>
             </method>
-            <method name="cdisc_dataset_file" signature="" line-rate="0" branch-rate="0">
+            <method name="cdisc_dataset_file" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="208" hits="0" branch="false"/>
                 <line number="209" hits="0" branch="false"/>
@@ -2265,7 +2268,7 @@
         </class>
         <class name="CDISCTealDatasetConnector.R" filename="R/CDISCTealDatasetConnector.R" line-rate="0.961538461538462" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -2472,7 +2475,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0">
+            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="49" hits="0" branch="false"/>
                 <line number="121" hits="38" branch="false"/>
@@ -2482,7 +2485,7 @@
                 <line number="201" hits="240" branch="false"/>
               </lines>
             </method>
-            <method name="pull" signature="" line-rate="0.978723404255319" branch-rate="0">
+            <method name="pull" signature="" line-rate="0.978723404255319" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="30" branch="false"/>
                 <line number="107" hits="30" branch="false"/>
@@ -2533,7 +2536,7 @@
                 <line number="328" hits="117" branch="false"/>
               </lines>
             </method>
-            <method name="set_parent" signature="" line-rate="1" branch-rate="0">
+            <method name="set_parent" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="128" hits="83" branch="false"/>
                 <line number="129" hits="83" branch="false"/>
@@ -2576,7 +2579,7 @@
         </class>
         <class name="CodeClass.R" filename="R/CodeClass.R" line-rate="0.990990990990991" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -2783,7 +2786,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="append" signature="" line-rate="1" branch-rate="0">
+            <method name="append" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="76" hits="3036" branch="false"/>
                 <line number="77" hits="3036" branch="false"/>
@@ -2793,7 +2796,7 @@
                 <line number="84" hits="3036" branch="false"/>
               </lines>
             </method>
-            <method name="set_code" signature="" line-rate="1" branch-rate="0">
+            <method name="set_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="95" hits="795" branch="false"/>
                 <line number="96" hits="795" branch="false"/>
@@ -2814,7 +2817,7 @@
                 <line number="345" hits="300" branch="false"/>
               </lines>
             </method>
-            <method name="get_code" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="114" hits="274" branch="false"/>
                 <line number="115" hits="274" branch="false"/>
@@ -2832,7 +2835,7 @@
                 <line number="146" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="eval" signature="" line-rate="0.357142857142857" branch-rate="0">
+            <method name="eval" signature="" line-rate="0.357142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="115" hits="0" branch="false"/>
                 <line number="116" hits="0" branch="false"/>
@@ -2878,7 +2881,7 @@
                 <line number="145" hits="84" branch="false"/>
               </lines>
             </method>
-            <method name="set_code_single" signature="" line-rate="0.928571428571429" branch-rate="0">
+            <method name="set_code_single" signature="" line-rate="0.928571428571429" branch-rate="0" complexity="0">
               <lines>
                 <line number="157" hits="0" branch="false"/>
                 <line number="158" hits="420" branch="false"/>
@@ -2896,12 +2899,12 @@
                 <line number="176" hits="3612" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_all" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code_all" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="179" hits="235" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_dataname" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code_dataname" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="183" hits="39" branch="false"/>
                 <line number="185" hits="39" branch="false"/>
@@ -2918,7 +2921,7 @@
                 <line number="210" hits="39" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_idx" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code_idx" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="213" hits="274" branch="false"/>
                 <line number="214" hits="107" branch="false"/>
@@ -2931,12 +2934,12 @@
                 <line number="222" hits="167" branch="false"/>
               </lines>
             </method>
-            <method name="code" signature="" line-rate="1" branch-rate="0">
+            <method name="code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="231" hits="4561" branch="false"/>
               </lines>
             </method>
-            <method name="list_to_code_class" signature="" line-rate="1" branch-rate="0">
+            <method name="list_to_code_class" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="241" hits="1118" branch="false"/>
                 <line number="243" hits="1118" branch="false"/>
@@ -2956,7 +2959,7 @@
                 <line number="263" hits="1118" branch="false"/>
               </lines>
             </method>
-            <method name="text_to_call" signature="" line-rate="1" branch-rate="0">
+            <method name="text_to_call" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="273" hits="169" branch="false"/>
                 <line number="274" hits="169" branch="false"/>
@@ -2964,7 +2967,7 @@
                 <line number="277" hits="165" branch="false"/>
               </lines>
             </method>
-            <method name="pretty_code_string" signature="" line-rate="1" branch-rate="0">
+            <method name="pretty_code_string" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="290" hits="814" branch="false"/>
                 <line number="291" hits="814" branch="false"/>
@@ -3100,12 +3103,12 @@
         </class>
         <class name="data_label.R" filename="R/data_label.R" line-rate="0.638888888888889" branch-rate="0" complexity="0">
           <methods>
-            <method name="data_label" signature="" line-rate="1" branch-rate="0">
+            <method name="data_label" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="15" hits="179" branch="false"/>
               </lines>
             </method>
-            <method name="data_label&lt;-" signature="" line-rate="0" branch-rate="0">
+            <method name="data_label&lt;-" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="35" hits="0" branch="false"/>
                 <line number="36" hits="0" branch="false"/>
@@ -3113,7 +3116,7 @@
                 <line number="39" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_cdisc_keys" signature="" line-rate="0.333333333333333" branch-rate="0">
+            <method name="get_cdisc_keys" signature="" line-rate="0.333333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="55" hits="303" branch="false"/>
                 <line number="57" hits="303" branch="false"/>
@@ -3129,7 +3132,7 @@
                 <line number="69" hits="303" branch="false"/>
               </lines>
             </method>
-            <method name="get_labels" signature="" line-rate="0.947368421052632" branch-rate="0">
+            <method name="get_labels" signature="" line-rate="0.947368421052632" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="8" branch="false"/>
                 <line number="93" hits="8" branch="false"/>
@@ -3194,7 +3197,7 @@
         </class>
         <class name="deep_clone_r6.R" filename="R/deep_clone_r6.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="deep_clone_r6" signature="" line-rate="1" branch-rate="0">
+            <method name="deep_clone_r6" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="1629" branch="false"/>
                 <line number="12" hits="86" branch="false"/>
@@ -3222,7 +3225,7 @@
         </class>
         <class name="get_attrs.R" filename="R/get_attrs.R" line-rate="0" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_attrs" signature="" line-rate="0" branch-rate="0">
+            <method name="get_attrs" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="108" hits="0" branch="false"/>
                 <line number="109" hits="0" branch="false"/>
@@ -3246,7 +3249,7 @@
                 <line number="151" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_attrs.TealDataset" signature="" line-rate="0" branch-rate="0">
+            <method name="get_attrs.TealDataset" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="47" hits="0" branch="false"/>
               </lines>
@@ -3259,7 +3262,7 @@
         </class>
         <class name="get_code.R" filename="R/get_code.R" line-rate="0.890173410404624" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_code" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="114" hits="274" branch="false"/>
                 <line number="115" hits="274" branch="false"/>
@@ -3277,19 +3280,19 @@
                 <line number="146" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="get_code.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="47" hits="5" branch="false"/>
                 <line number="48" hits="5" branch="false"/>
               </lines>
             </method>
-            <method name="get_code.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="54" hits="12" branch="false"/>
                 <line number="55" hits="12" branch="false"/>
               </lines>
             </method>
-            <method name="get_code.TealDataAbstract" signature="" line-rate="0.833333333333333" branch-rate="0">
+            <method name="get_code.TealDataAbstract" signature="" line-rate="0.833333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="84" hits="7" branch="false"/>
                 <line number="85" hits="7" branch="false"/>
@@ -3299,7 +3302,7 @@
                 <line number="91" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="get_code.default" signature="" line-rate="0.878787878787879" branch-rate="0">
+            <method name="get_code.default" signature="" line-rate="0.878787878787879" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="35" branch="false"/>
                 <line number="107" hits="31" branch="false"/>
@@ -3336,7 +3339,7 @@
                 <line number="145" hits="27" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_single" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code_single" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="163" hits="84" branch="false"/>
                 <line number="164" hits="84" branch="false"/>
@@ -3353,7 +3356,7 @@
                 <line number="180" hits="82" branch="false"/>
               </lines>
             </method>
-            <method name="enclosed_with" signature="" line-rate="0.80952380952381" branch-rate="0">
+            <method name="enclosed_with" signature="" line-rate="0.80952380952381" branch-rate="0" complexity="0">
               <lines>
                 <line number="191" hits="11" branch="false"/>
                 <line number="194" hits="9" branch="false"/>
@@ -3378,7 +3381,7 @@
                 <line number="217" hits="9" branch="false"/>
               </lines>
             </method>
-            <method name="enclosed_with_dataname" signature="" line-rate="0.970588235294118" branch-rate="0">
+            <method name="enclosed_with_dataname" signature="" line-rate="0.970588235294118" branch-rate="0" complexity="0">
               <lines>
                 <line number="228" hits="21" branch="false"/>
                 <line number="229" hits="21" branch="false"/>
@@ -3416,7 +3419,7 @@
                 <line number="278" hits="20" branch="false"/>
               </lines>
             </method>
-            <method name="code_exclude" signature="" line-rate="0.941176470588235" branch-rate="0">
+            <method name="code_exclude" signature="" line-rate="0.941176470588235" branch-rate="0" complexity="0">
               <lines>
                 <line number="289" hits="32" branch="false"/>
                 <line number="290" hits="29" branch="false"/>
@@ -3437,7 +3440,7 @@
                 <line number="316" hits="29" branch="false"/>
               </lines>
             </method>
-            <method name="find_source_code" signature="" line-rate="0.777777777777778" branch-rate="0">
+            <method name="find_source_code" signature="" line-rate="0.777777777777778" branch-rate="0" complexity="0">
               <lines>
                 <line number="325" hits="80" branch="false"/>
                 <line number="326" hits="80" branch="false"/>
@@ -3450,7 +3453,7 @@
                 <line number="340" hits="35" branch="false"/>
               </lines>
             </method>
-            <method name="include_source_code" signature="" line-rate="0.828571428571429" branch-rate="0">
+            <method name="include_source_code" signature="" line-rate="0.828571428571429" branch-rate="0" complexity="0">
               <lines>
                 <line number="350" hits="80" branch="false"/>
                 <line number="351" hits="80" branch="false"/>
@@ -3668,24 +3671,24 @@
         </class>
         <class name="get_dataname.R" filename="R/get_dataname.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_dataname" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataname" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="14" hits="740" branch="false"/>
                 <line number="217" hits="1231" branch="false"/>
                 <line number="115" hits="524" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataname.TealDataAbstract" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataname.TealDataAbstract" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="20" hits="15" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataname.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataname.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="26" hits="220" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataname.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataname.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="33" hits="505" branch="false"/>
               </lines>
@@ -3700,19 +3703,19 @@
         </class>
         <class name="get_dataset_label.R" filename="R/get_dataset_label.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_dataset_label" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset_label" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="56" branch="false"/>
                 <line number="229" hits="95" branch="false"/>
                 <line number="129" hits="139" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset_label.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset_label.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="27" hits="23" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset_label.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset_label.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="38" hits="33" branch="false"/>
               </lines>
@@ -3726,7 +3729,7 @@
         </class>
         <class name="get_dataset.R" filename="R/get_dataset.R" line-rate="0.384615384615385" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="12" hits="137" branch="false"/>
                 <line number="179" hits="5" branch="false"/>
@@ -3748,21 +3751,21 @@
                 <line number="183" hits="101" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset.TealDatasetConnector" signature="" line-rate="0.666666666666667" branch-rate="0">
+            <method name="get_dataset.TealDatasetConnector" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
               <lines>
                 <line number="40" hits="53" branch="false"/>
                 <line number="41" hits="0" branch="false"/>
                 <line number="43" hits="53" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset.TealDataset" signature="" line-rate="0.666666666666667" branch-rate="0">
+            <method name="get_dataset.TealDataset" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
               <lines>
                 <line number="57" hits="84" branch="false"/>
                 <line number="58" hits="0" branch="false"/>
                 <line number="60" hits="84" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset.TealDataAbstract" signature="" line-rate="0" branch-rate="0">
+            <method name="get_dataset.TealDataAbstract" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="85" hits="0" branch="false"/>
                 <line number="86" hits="0" branch="false"/>
@@ -3791,7 +3794,7 @@
         </class>
         <class name="get_datasets.R" filename="R/get_datasets.R" line-rate="0.8" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_datasets" signature="" line-rate="1" branch-rate="0">
+            <method name="get_datasets" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="10" hits="9" branch="false"/>
                 <line number="197" hits="62" branch="false"/>
@@ -3802,7 +3805,7 @@
                 <line number="203" hits="60" branch="false"/>
               </lines>
             </method>
-            <method name="get_datasets.TealDataAbstract" signature="" line-rate="0.75" branch-rate="0">
+            <method name="get_datasets.TealDataAbstract" signature="" line-rate="0.75" branch-rate="0" complexity="0">
               <lines>
                 <line number="84" hits="7" branch="false"/>
                 <line number="85" hits="6" branch="false"/>
@@ -3810,7 +3813,7 @@
                 <line number="88" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="get_datasets.TealDatasetConnector" signature="" line-rate="0.75" branch-rate="0">
+            <method name="get_datasets.TealDatasetConnector" signature="" line-rate="0.75" branch-rate="0" complexity="0">
               <lines>
                 <line number="108" hits="1" branch="false"/>
                 <line number="109" hits="1" branch="false"/>
@@ -3818,7 +3821,7 @@
                 <line number="112" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_datasets.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_datasets.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="129" hits="1" branch="false"/>
               </lines>
@@ -3839,12 +3842,12 @@
         </class>
         <class name="get_key_duplicates.R" filename="R/get_key_duplicates.R" line-rate="0.810810810810811" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_key_duplicates" signature="" line-rate="1" branch-rate="0">
+            <method name="get_key_duplicates" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="36" hits="46" branch="false"/>
               </lines>
             </method>
-            <method name="get_key_duplicates.TealDataset" signature="" line-rate="0" branch-rate="0">
+            <method name="get_key_duplicates.TealDataset" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="42" hits="0" branch="false"/>
                 <line number="43" hits="0" branch="false"/>
@@ -3853,7 +3856,7 @@
                 <line number="48" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_key_duplicates.data.frame" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_key_duplicates.data.frame" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="54" hits="46" branch="false"/>
                 <line number="55" hits="0" branch="false"/>
@@ -3861,7 +3864,7 @@
                 <line number="58" hits="46" branch="false"/>
               </lines>
             </method>
-            <method name="get_key_duplicates_util" signature="" line-rate="1" branch-rate="0">
+            <method name="get_key_duplicates_util" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="90" hits="53" branch="false"/>
                 <line number="91" hits="52" branch="false"/>
@@ -3935,32 +3938,32 @@
         </class>
         <class name="get_keys.R" filename="R/get_keys.R" line-rate="0.533333333333333" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="get_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="14" hits="102" branch="false"/>
                 <line number="235" hits="212" branch="false"/>
                 <line number="135" hits="159" branch="false"/>
               </lines>
             </method>
-            <method name="get_keys.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_keys.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="76" branch="false"/>
                 <line number="33" hits="76" branch="false"/>
               </lines>
             </method>
-            <method name="get_keys.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="get_keys.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="55" hits="26" branch="false"/>
                 <line number="56" hits="26" branch="false"/>
               </lines>
             </method>
-            <method name="get_keys.TealDataAbstract" signature="" line-rate="0" branch-rate="0">
+            <method name="get_keys.TealDataAbstract" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="72" hits="0" branch="false"/>
                 <line number="73" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0">
+            <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="120" branch="false"/>
                 <line number="309" hits="629" branch="false"/>
@@ -3979,19 +3982,19 @@
                 <line number="275" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_keys.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="set_keys.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="108" hits="120" branch="false"/>
                 <line number="109" hits="120" branch="false"/>
               </lines>
             </method>
-            <method name="set_keys.TealDatasetConnector" signature="" line-rate="0" branch-rate="0">
+            <method name="set_keys.TealDatasetConnector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="130" hits="0" branch="false"/>
                 <line number="131" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_keys.TealDataAbstract" signature="" line-rate="0" branch-rate="0">
+            <method name="set_keys.TealDataAbstract" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="148" hits="0" branch="false"/>
                 <line number="149" hits="0" branch="false"/>
@@ -4019,7 +4022,7 @@
         </class>
         <class name="get_raw_data.R" filename="R/get_raw_data.R" line-rate="0.541666666666667" branch-rate="0" complexity="0">
           <methods>
-            <method name="get_raw_data" signature="" line-rate="1" branch-rate="0">
+            <method name="get_raw_data" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="16" hits="216" branch="false"/>
                 <line number="17" hits="215" branch="false"/>
@@ -4028,21 +4031,21 @@
                 <line number="206" hits="59" branch="false"/>
               </lines>
             </method>
-            <method name="get_raw_data.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_raw_data.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="31" hits="194" branch="false"/>
                 <line number="32" hits="2" branch="false"/>
                 <line number="34" hits="194" branch="false"/>
               </lines>
             </method>
-            <method name="get_raw_data.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="get_raw_data.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="52" hits="17" branch="false"/>
                 <line number="53" hits="1" branch="false"/>
                 <line number="55" hits="17" branch="false"/>
               </lines>
             </method>
-            <method name="get_raw_data.TealDataAbstract" signature="" line-rate="0.3125" branch-rate="0">
+            <method name="get_raw_data.TealDataAbstract" signature="" line-rate="0.3125" branch-rate="0" complexity="0">
               <lines>
                 <line number="160" hits="4" branch="false"/>
                 <line number="161" hits="0" branch="false"/>
@@ -4092,7 +4095,7 @@
         </class>
         <class name="include_css_js.R" filename="R/include_css_js.R" line-rate="0.888888888888889" branch-rate="0" complexity="0">
           <methods>
-            <method name="include_js_files" signature="" line-rate="0.888888888888889" branch-rate="0">
+            <method name="include_js_files" signature="" line-rate="0.888888888888889" branch-rate="0" complexity="0">
               <lines>
                 <line number="13" hits="4" branch="false"/>
                 <line number="14" hits="4" branch="false"/>
@@ -4120,7 +4123,7 @@
         </class>
         <class name="is_pulled.R" filename="R/is_pulled.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="is_pulled" signature="" line-rate="1" branch-rate="0">
+            <method name="is_pulled" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="245" branch="false"/>
                 <line number="236" hits="128" branch="false"/>
@@ -4128,17 +4131,17 @@
                 <line number="385" hits="702" branch="false"/>
               </lines>
             </method>
-            <method name="is_pulled.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="is_pulled.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="59" branch="false"/>
               </lines>
             </method>
-            <method name="is_pulled.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="is_pulled.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="50" hits="173" branch="false"/>
               </lines>
             </method>
-            <method name="is_pulled.TealDataAbstract" signature="" line-rate="1" branch-rate="0">
+            <method name="is_pulled.TealDataAbstract" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="111" hits="13" branch="false"/>
               </lines>
@@ -4153,7 +4156,7 @@
         </class>
         <class name="JoinKeys.R" filename="R/JoinKeys.R" line-rate="0.961748633879781" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -4360,7 +4363,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="split" signature="" line-rate="1" branch-rate="0">
+            <method name="split" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="40" hits="6" branch="false"/>
                 <line number="41" hits="6" branch="false"/>
@@ -4383,7 +4386,7 @@
                 <line number="59" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="merge" signature="" line-rate="1" branch-rate="0">
+            <method name="merge" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="66" hits="5" branch="false"/>
                 <line number="67" hits="18" branch="false"/>
@@ -4395,7 +4398,7 @@
                 <line number="76" hits="13" branch="false"/>
               </lines>
             </method>
-            <method name="get" signature="" line-rate="1" branch-rate="0">
+            <method name="get" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="86" hits="857" branch="false"/>
                 <line number="87" hits="368" branch="false"/>
@@ -4408,7 +4411,7 @@
                 <line number="98" hits="250" branch="false"/>
               </lines>
             </method>
-            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0">
+            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="232" branch="false"/>
                 <line number="107" hits="232" branch="false"/>
@@ -4489,7 +4492,7 @@
                 <line number="369" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="set" signature="" line-rate="0.909090909090909" branch-rate="0">
+            <method name="set" signature="" line-rate="0.909090909090909" branch-rate="0" complexity="0">
               <lines>
                 <line number="130" hits="119" branch="false"/>
                 <line number="131" hits="1" branch="false"/>
@@ -4504,7 +4507,7 @@
                 <line number="148" hits="110" branch="false"/>
               </lines>
             </method>
-            <method name="print" signature="" line-rate="0.95" branch-rate="0">
+            <method name="print" signature="" line-rate="0.95" branch-rate="0" complexity="0">
               <lines>
                 <line number="156" hits="2" branch="false"/>
                 <line number="157" hits="2" branch="false"/>
@@ -4568,7 +4571,7 @@
                 <line number="106" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="set_parents" signature="" line-rate="1" branch-rate="0">
+            <method name="set_parents" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="176" hits="34" branch="false"/>
                 <line number="177" hits="74" branch="false"/>
@@ -4585,7 +4588,7 @@
                 <line number="190" hits="33" branch="false"/>
               </lines>
             </method>
-            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0">
+            <method name="get_parent" signature="" line-rate="0.833333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="49" hits="0" branch="false"/>
                 <line number="121" hits="38" branch="false"/>
@@ -4595,13 +4598,13 @@
                 <line number="201" hits="240" branch="false"/>
               </lines>
             </method>
-            <method name="get_parents" signature="" line-rate="1" branch-rate="0">
+            <method name="get_parents" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="208" hits="53" branch="false"/>
                 <line number="193" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="update_keys_given_parents" signature="" line-rate="0.958333333333333" branch-rate="0">
+            <method name="update_keys_given_parents" signature="" line-rate="0.958333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="215" hits="22" branch="false"/>
                 <line number="216" hits="22" branch="false"/>
@@ -4629,7 +4632,7 @@
                 <line number="249" hits="22" branch="false"/>
               </lines>
             </method>
-            <method name="join_pair" signature="" line-rate="1" branch-rate="0">
+            <method name="join_pair" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="257" hits="430" branch="false"/>
                 <line number="258" hits="430" branch="false"/>
@@ -4645,7 +4648,7 @@
                 <line number="274" hits="307" branch="false"/>
               </lines>
             </method>
-            <method name="check_compatible_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="check_compatible_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="280" hits="363" branch="false"/>
                 <line number="281" hits="7" branch="false"/>
@@ -4664,7 +4667,7 @@
                 <line number="311" hits="353" branch="false"/>
               </lines>
             </method>
-            <method name="check_parent_child" signature="" line-rate="0.857142857142857" branch-rate="0">
+            <method name="check_parent_child" signature="" line-rate="0.857142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="315" hits="24" branch="false"/>
                 <line number="316" hits="24" branch="false"/>
@@ -4682,7 +4685,7 @@
                 <line number="330" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="join_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="363" hits="181" branch="false"/>
                 <line number="365" hits="181" branch="false"/>
@@ -4691,23 +4694,23 @@
                 <line number="370" hits="173" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_join_keys" signature="" line-rate="0.5" branch-rate="0">
+            <method name="mutate_join_keys" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="388" hits="0" branch="false"/>
                 <line number="298" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_join_keys.JoinKeys" signature="" line-rate="0" branch-rate="0">
+            <method name="mutate_join_keys.JoinKeys" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="405" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_join_keys.TealData" signature="" line-rate="0" branch-rate="0">
+            <method name="mutate_join_keys.TealData" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="427" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="join_key" signature="" line-rate="1" branch-rate="0">
+            <method name="join_key" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="447" hits="458" branch="false"/>
                 <line number="448" hits="458" branch="false"/>
@@ -4921,18 +4924,18 @@
         </class>
         <class name="load_dataset.R" filename="R/load_dataset.R" line-rate="0.28" branch-rate="0" complexity="0">
           <methods>
-            <method name="load_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="load_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="17" hits="122" branch="false"/>
               </lines>
             </method>
-            <method name="load_dataset.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="load_dataset.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="31" hits="45" branch="false"/>
                 <line number="32" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="load_dataset.TealDatasetConnector" signature="" line-rate="0.5" branch-rate="0">
+            <method name="load_dataset.TealDatasetConnector" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="58" hits="77" branch="false"/>
                 <line number="59" hits="77" branch="false"/>
@@ -4944,25 +4947,25 @@
                 <line number="70" hits="77" branch="false"/>
               </lines>
             </method>
-            <method name="load_datasets" signature="" line-rate="0" branch-rate="0">
+            <method name="load_datasets" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="89" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="load_datasets.TealDataset" signature="" line-rate="0" branch-rate="0">
+            <method name="load_datasets.TealDataset" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="103" hits="0" branch="false"/>
                 <line number="104" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="load_datasets.TealDatasetConnector" signature="" line-rate="0" branch-rate="0">
+            <method name="load_datasets.TealDatasetConnector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="130" hits="0" branch="false"/>
                 <line number="131" hits="0" branch="false"/>
                 <line number="132" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="load_datasets.TealDataConnector" signature="" line-rate="0" branch-rate="0">
+            <method name="load_datasets.TealDataConnector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="168" hits="0" branch="false"/>
                 <line number="169" hits="0" branch="false"/>
@@ -4970,7 +4973,7 @@
                 <line number="172" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="load_datasets.TealData" signature="" line-rate="0" branch-rate="0">
+            <method name="load_datasets.TealData" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="218" hits="0" branch="false"/>
                 <line number="219" hits="0" branch="false"/>
@@ -5009,7 +5012,7 @@
         </class>
         <class name="MAETealDataset.R" filename="R/MAETealDataset.R" line-rate="0.58695652173913" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -5216,7 +5219,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0">
+            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0" complexity="0">
               <lines>
                 <line number="94" hits="3" branch="false"/>
                 <line number="95" hits="3" branch="false"/>
@@ -5292,7 +5295,7 @@
                 <line number="406" hits="10" branch="false"/>
               </lines>
             </method>
-            <method name="check_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="check_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="128" hits="8" branch="false"/>
                 <line number="129" hits="3" branch="false"/>
@@ -5317,13 +5320,13 @@
                 <line number="531" hits="75" branch="false"/>
               </lines>
             </method>
-            <method name="get_colnames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_colnames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="147" hits="8" branch="false"/>
                 <line number="181" hits="128" branch="false"/>
               </lines>
             </method>
-            <method name="get_column_labels" signature="" line-rate="0.0769230769230769" branch-rate="0">
+            <method name="get_column_labels" signature="" line-rate="0.0769230769230769" branch-rate="0" complexity="0">
               <lines>
                 <line number="153" hits="0" branch="false"/>
                 <line number="154" hits="0" branch="false"/>
@@ -5340,25 +5343,25 @@
                 <line number="187" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_ncol" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_ncol" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="170" hits="0" branch="false"/>
                 <line number="193" hits="9" branch="false"/>
               </lines>
             </method>
-            <method name="get_nrow" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_nrow" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="176" hits="0" branch="false"/>
                 <line number="199" hits="17" branch="false"/>
               </lines>
             </method>
-            <method name="get_rownames" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_rownames" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="182" hits="0" branch="false"/>
                 <line number="205" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="print" signature="" line-rate="0.95" branch-rate="0">
+            <method name="print" signature="" line-rate="0.95" branch-rate="0" complexity="0">
               <lines>
                 <line number="156" hits="2" branch="false"/>
                 <line number="157" hits="2" branch="false"/>
@@ -5422,7 +5425,7 @@
                 <line number="106" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="get_class_colnames" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_class_colnames" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="199" hits="0" branch="false"/>
                 <line number="201" hits="0" branch="false"/>
@@ -5442,7 +5445,7 @@
                 <line number="620" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="execute_code" signature="" line-rate="0.681818181818182" branch-rate="0">
+            <method name="execute_code" signature="" line-rate="0.681818181818182" branch-rate="0" complexity="0">
               <lines>
                 <line number="217" hits="2" branch="false"/>
                 <line number="218" hits="2" branch="false"/>
@@ -5490,7 +5493,7 @@
                 <line number="744" hits="76" branch="false"/>
               </lines>
             </method>
-            <method name="dataset.MultiAssayExperiment" signature="" line-rate="0.941176470588235" branch-rate="0">
+            <method name="dataset.MultiAssayExperiment" signature="" line-rate="0.941176470588235" branch-rate="0" complexity="0">
               <lines>
                 <line number="281" hits="4" branch="false"/>
                 <line number="282" hits="0" branch="false"/>
@@ -5511,7 +5514,7 @@
                 <line number="299" hits="4" branch="false"/>
               </lines>
             </method>
-            <method name="mae_dataset" signature="" line-rate="0" branch-rate="0">
+            <method name="mae_dataset" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="323" hits="0" branch="false"/>
                 <line number="324" hits="0" branch="false"/>
@@ -5673,7 +5676,7 @@
         </class>
         <class name="mutate_dataset.R" filename="R/mutate_dataset.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="mutate_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="30" hits="64" branch="false"/>
                 <line number="297" hits="7" branch="false"/>
@@ -5696,7 +5699,7 @@
                 <line number="317" hits="5" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_dataset.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_dataset.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="76" hits="31" branch="false"/>
                 <line number="77" hits="31" branch="false"/>
@@ -5704,7 +5707,7 @@
                 <line number="80" hits="29" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_dataset.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_dataset.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="91" hits="29" branch="false"/>
                 <line number="92" hits="29" branch="false"/>
@@ -5712,7 +5715,7 @@
                 <line number="94" hits="29" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_dataset.TealDataAbstract" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_dataset.TealDataAbstract" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="4" branch="false"/>
                 <line number="107" hits="4" branch="false"/>
@@ -5720,12 +5723,12 @@
                 <line number="110" hits="4" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_data" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_data" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="138" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_data.TealDataAbstract" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_data.TealDataAbstract" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="147" hits="3" branch="false"/>
                 <line number="149" hits="3" branch="false"/>
@@ -5757,7 +5760,7 @@
         </class>
         <class name="set_args.R" filename="R/set_args.R" line-rate="0.5" branch-rate="0" complexity="0">
           <methods>
-            <method name="set_args" signature="" line-rate="1" branch-rate="0">
+            <method name="set_args" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="93" hits="96" branch="false"/>
                 <line number="94" hits="6" branch="false"/>
@@ -5779,13 +5782,13 @@
                 <line number="339" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="set_args.CallableFunction" signature="" line-rate="1" branch-rate="0">
+            <method name="set_args.CallableFunction" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="27" hits="3" branch="false"/>
                 <line number="28" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="set_args.CallableCode" signature="" line-rate="0" branch-rate="0">
+            <method name="set_args.CallableCode" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="42" hits="0" branch="false"/>
                 <line number="43" hits="0" branch="false"/>
@@ -5794,7 +5797,7 @@
                 <line number="46" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_args.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="set_args.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="56" hits="1" branch="false"/>
                 <line number="57" hits="1" branch="false"/>
@@ -5816,7 +5819,7 @@
         </class>
         <class name="teal_data.R" filename="R/teal_data.R" line-rate="0.935483870967742" branch-rate="0" complexity="0">
           <methods>
-            <method name="teal_data" signature="" line-rate="0.857142857142857" branch-rate="0">
+            <method name="teal_data" signature="" line-rate="0.857142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="38" hits="28" branch="false"/>
                 <line number="39" hits="28" branch="false"/>
@@ -5834,14 +5837,14 @@
                 <line number="58" hits="25" branch="false"/>
               </lines>
             </method>
-            <method name="teal_data_file" signature="" line-rate="1" branch-rate="0">
+            <method name="teal_data_file" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="98" hits="2" branch="false"/>
                 <line number="99" hits="2" branch="false"/>
                 <line number="100" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="update_join_keys_to_primary" signature="" line-rate="1" branch-rate="0">
+            <method name="update_join_keys_to_primary" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="110" hits="55" branch="false"/>
                 <line number="111" hits="55" branch="false"/>
@@ -5896,7 +5899,7 @@
         </class>
         <class name="TealData.R" filename="R/TealData.R" line-rate="0.504385964912281" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -6103,7 +6106,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="copy" signature="" line-rate="1" branch-rate="0">
+            <method name="copy" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="102" hits="2" branch="false"/>
                 <line number="103" hits="2" branch="false"/>
@@ -6111,7 +6114,7 @@
                 <line number="105" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="print" signature="" line-rate="0.95" branch-rate="0">
+            <method name="print" signature="" line-rate="0.95" branch-rate="0" complexity="0">
               <lines>
                 <line number="156" hits="2" branch="false"/>
                 <line number="157" hits="2" branch="false"/>
@@ -6175,7 +6178,7 @@
                 <line number="106" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="get_connectors" signature="" line-rate="1" branch-rate="0">
+            <method name="get_connectors" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="134" hits="5" branch="false"/>
                 <line number="135" hits="5" branch="false"/>
@@ -6185,7 +6188,7 @@
                 <line number="139" hits="5" branch="false"/>
               </lines>
             </method>
-            <method name="get_items" signature="" line-rate="0.857142857142857" branch-rate="0">
+            <method name="get_items" signature="" line-rate="0.857142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="149" hits="105" branch="false"/>
                 <line number="151" hits="105" branch="false"/>
@@ -6210,20 +6213,20 @@
                 <line number="220" hits="30" branch="false"/>
               </lines>
             </method>
-            <method name="get_join_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="get_join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="181" hits="179" branch="false"/>
                 <line number="182" hits="16" branch="false"/>
                 <line number="184" hits="163" branch="false"/>
               </lines>
             </method>
-            <method name="get_parents" signature="" line-rate="1" branch-rate="0">
+            <method name="get_parents" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="208" hits="53" branch="false"/>
                 <line number="193" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_ui" signature="" line-rate="0.947368421052632" branch-rate="0">
+            <method name="get_ui" signature="" line-rate="0.947368421052632" branch-rate="0" complexity="0">
               <lines>
                 <line number="206" hits="4" branch="false"/>
                 <line number="207" hits="0" branch="false"/>
@@ -6246,7 +6249,7 @@
                 <line number="449" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="get_server" signature="" line-rate="0.147058823529412" branch-rate="0">
+            <method name="get_server" signature="" line-rate="0.147058823529412" branch-rate="0" complexity="0">
               <lines>
                 <line number="219" hits="0" branch="false"/>
                 <line number="220" hits="0" branch="false"/>
@@ -6284,7 +6287,7 @@
                 <line number="456" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="launch" signature="" line-rate="0" branch-rate="0">
+            <method name="launch" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="248" hits="0" branch="false"/>
                 <line number="249" hits="0" branch="false"/>
@@ -6447,13 +6450,13 @@
                 <line number="495" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_join_keys" signature="" line-rate="0.5" branch-rate="0">
+            <method name="mutate_join_keys" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="388" hits="0" branch="false"/>
                 <line number="298" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="check_metadata" signature="" line-rate="0.714285714285714" branch-rate="0">
+            <method name="check_metadata" signature="" line-rate="0.714285714285714" branch-rate="0" complexity="0">
               <lines>
                 <line number="306" hits="52" branch="false"/>
                 <line number="308" hits="4" branch="false"/>
@@ -6485,7 +6488,7 @@
                 <line number="345" hits="43" branch="false"/>
               </lines>
             </method>
-            <method name="ui" signature="" line-rate="0.772727272727273" branch-rate="0">
+            <method name="ui" signature="" line-rate="0.772727272727273" branch-rate="0" complexity="0">
               <lines>
                 <line number="353" hits="4" branch="false"/>
                 <line number="356" hits="4" branch="false"/>
@@ -6555,7 +6558,7 @@
                 <line number="536" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="server" signature="" line-rate="0" branch-rate="0">
+            <method name="server" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="404" hits="0" branch="false"/>
                 <line number="406" hits="0" branch="false"/>
@@ -6856,7 +6859,7 @@
         </class>
         <class name="TealDataAbstract.R" filename="R/TealDataAbstract.R" line-rate="0.896551724137931" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -7063,7 +7066,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0">
+            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0" complexity="0">
               <lines>
                 <line number="94" hits="3" branch="false"/>
                 <line number="95" hits="3" branch="false"/>
@@ -7139,7 +7142,7 @@
                 <line number="406" hits="10" branch="false"/>
               </lines>
             </method>
-            <method name="check_reproducibility" signature="" line-rate="1" branch-rate="0">
+            <method name="check_reproducibility" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="51" hits="47" branch="false"/>
                 <line number="52" hits="47" branch="false"/>
@@ -7148,7 +7151,7 @@
                 <line number="56" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="execute_mutate" signature="" line-rate="0.688888888888889" branch-rate="0">
+            <method name="execute_mutate" signature="" line-rate="0.688888888888889" branch-rate="0" complexity="0">
               <lines>
                 <line number="63" hits="2" branch="false"/>
                 <line number="65" hits="2" branch="false"/>
@@ -7197,12 +7200,12 @@
                 <line number="121" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_check_result" signature="" line-rate="1" branch-rate="0">
+            <method name="get_check_result" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="127" hits="49" branch="false"/>
               </lines>
             </method>
-            <method name="get_code" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="114" hits="274" branch="false"/>
                 <line number="115" hits="274" branch="false"/>
@@ -7220,7 +7223,7 @@
                 <line number="146" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0">
+            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0" complexity="0">
               <lines>
                 <line number="147" hits="46" branch="false"/>
                 <line number="149" hits="46" branch="false"/>
@@ -7267,7 +7270,7 @@
                 <line number="162" hits="187" branch="false"/>
               </lines>
             </method>
-            <method name="get_datanames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_datanames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="167" hits="209" branch="false"/>
                 <line number="169" hits="209" branch="false"/>
@@ -7275,7 +7278,7 @@
                 <line number="122" hits="11" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="12" hits="137" branch="false"/>
                 <line number="179" hits="5" branch="false"/>
@@ -7297,7 +7300,7 @@
                 <line number="183" hits="101" branch="false"/>
               </lines>
             </method>
-            <method name="get_datasets" signature="" line-rate="1" branch-rate="0">
+            <method name="get_datasets" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="10" hits="9" branch="false"/>
                 <line number="197" hits="62" branch="false"/>
@@ -7308,7 +7311,7 @@
                 <line number="203" hits="60" branch="false"/>
               </lines>
             </method>
-            <method name="get_items" signature="" line-rate="0.857142857142857" branch-rate="0">
+            <method name="get_items" signature="" line-rate="0.857142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="149" hits="105" branch="false"/>
                 <line number="151" hits="105" branch="false"/>
@@ -7333,12 +7336,12 @@
                 <line number="220" hits="30" branch="false"/>
               </lines>
             </method>
-            <method name="get_check" signature="" line-rate="1" branch-rate="0">
+            <method name="get_check" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="227" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="is_pulled" signature="" line-rate="1" branch-rate="0">
+            <method name="is_pulled" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="245" branch="false"/>
                 <line number="236" hits="128" branch="false"/>
@@ -7346,7 +7349,7 @@
                 <line number="385" hits="702" branch="false"/>
               </lines>
             </method>
-            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0">
+            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="232" branch="false"/>
                 <line number="107" hits="232" branch="false"/>
@@ -7427,7 +7430,7 @@
                 <line number="369" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="30" hits="64" branch="false"/>
                 <line number="297" hits="7" branch="false"/>
@@ -7450,7 +7453,7 @@
                 <line number="317" hits="5" branch="false"/>
               </lines>
             </method>
-            <method name="set_check" signature="" line-rate="1" branch-rate="0">
+            <method name="set_check" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="326" hits="132" branch="false"/>
                 <line number="327" hits="131" branch="false"/>
@@ -7458,7 +7461,7 @@
                 <line number="329" hits="131" branch="false"/>
               </lines>
             </method>
-            <method name="set_pull_code" signature="" line-rate="1" branch-rate="0">
+            <method name="set_pull_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="340" hits="7" branch="false"/>
                 <line number="341" hits="6" branch="false"/>
@@ -7493,7 +7496,7 @@
                 <line number="377" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="reassign_datasets_vars" signature="" line-rate="0.967741935483871" branch-rate="0">
+            <method name="reassign_datasets_vars" signature="" line-rate="0.967741935483871" branch-rate="0" complexity="0">
               <lines>
                 <line number="386" hits="3" branch="false"/>
                 <line number="387" hits="6" branch="false"/>
@@ -7528,7 +7531,7 @@
                 <line number="243" hits="7" branch="false"/>
               </lines>
             </method>
-            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
+            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0" complexity="0">
               <lines>
                 <line number="115" hits="155" branch="false"/>
                 <line number="409" hits="222" branch="false"/>
@@ -7537,7 +7540,7 @@
                 <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
-            <method name="check_combined_code" signature="" line-rate="1" branch-rate="0">
+            <method name="check_combined_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="412" hits="4" branch="false"/>
                 <line number="413" hits="4" branch="false"/>
@@ -7554,7 +7557,7 @@
                 <line number="424" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="get_datasets_code_class" signature="" line-rate="0.833333333333333" branch-rate="0">
+            <method name="get_datasets_code_class" signature="" line-rate="0.833333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="427" hits="78" branch="false"/>
                 <line number="428" hits="78" branch="false"/>
@@ -7564,7 +7567,7 @@
                 <line number="434" hits="78" branch="false"/>
               </lines>
             </method>
-            <method name="get_mutate_code_class" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_mutate_code_class" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="437" hits="71" branch="false"/>
                 <line number="438" hits="71" branch="false"/>
@@ -7576,7 +7579,7 @@
                 <line number="387" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_pull_code_class" signature="" line-rate="1" branch-rate="0">
+            <method name="get_pull_code_class" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="443" hits="48" branch="false"/>
                 <line number="444" hits="48" branch="false"/>
@@ -7600,7 +7603,7 @@
                 <line number="596" hits="303" branch="false"/>
               </lines>
             </method>
-            <method name="set_mutate_code" signature="" line-rate="0.666666666666667" branch-rate="0">
+            <method name="set_mutate_code" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
               <lines>
                 <line number="448" hits="16" branch="false"/>
                 <line number="449" hits="16" branch="false"/>
@@ -7616,7 +7619,7 @@
                 <line number="465" hits="14" branch="false"/>
               </lines>
             </method>
-            <method name="set_mutate_vars" signature="" line-rate="1" branch-rate="0">
+            <method name="set_mutate_vars" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="468" hits="17" branch="false"/>
                 <line number="469" hits="15" branch="false"/>
@@ -7627,7 +7630,7 @@
                 <line number="476" hits="15" branch="false"/>
               </lines>
             </method>
-            <method name="check_names" signature="" line-rate="0.714285714285714" branch-rate="0">
+            <method name="check_names" signature="" line-rate="0.714285714285714" branch-rate="0" complexity="0">
               <lines>
                 <line number="479" hits="149" branch="false"/>
                 <line number="480" hits="0" branch="false"/>
@@ -7876,7 +7879,7 @@
         </class>
         <class name="TealDataConnection.R" filename="R/TealDataConnection.R" line-rate="0.393939393939394" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -8083,18 +8086,18 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="finalize" signature="" line-rate="1" branch-rate="0">
+            <method name="finalize" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="89" hits="29" branch="false"/>
                 <line number="90" hits="29" branch="false"/>
               </lines>
             </method>
-            <method name="is_opened" signature="" line-rate="1" branch-rate="0">
+            <method name="is_opened" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="99" hits="4" branch="false"/>
               </lines>
             </method>
-            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0">
+            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="154" branch="false"/>
                 <line number="106" hits="0" branch="false"/>
@@ -8103,7 +8106,7 @@
                 <line number="378" hits="146" branch="false"/>
               </lines>
             </method>
-            <method name="launch" signature="" line-rate="0" branch-rate="0">
+            <method name="launch" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="248" hits="0" branch="false"/>
                 <line number="249" hits="0" branch="false"/>
@@ -8266,7 +8269,7 @@
                 <line number="495" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="open" signature="" line-rate="0.454545454545455" branch-rate="0">
+            <method name="open" signature="" line-rate="0.454545454545455" branch-rate="0" complexity="0">
               <lines>
                 <line number="180" hits="6" branch="false"/>
                 <line number="181" hits="6" branch="false"/>
@@ -8292,12 +8295,12 @@
                 <line number="210" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="get_conn" signature="" line-rate="1" branch-rate="0">
+            <method name="get_conn" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="219" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="get_open_call" signature="" line-rate="0.8" branch-rate="0">
+            <method name="get_open_call" signature="" line-rate="0.8" branch-rate="0" complexity="0">
               <lines>
                 <line number="230" hits="34" branch="false"/>
                 <line number="231" hits="34" branch="false"/>
@@ -8311,12 +8314,12 @@
                 <line number="244" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="get_open_error_message" signature="" line-rate="0" branch-rate="0">
+            <method name="get_open_error_message" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="254" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_preopen_server" signature="" line-rate="0" branch-rate="0">
+            <method name="get_preopen_server" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="261" hits="0" branch="false"/>
                 <line number="218" hits="0" branch="false"/>
@@ -8331,24 +8334,24 @@
                 <line number="227" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_open_server" signature="" line-rate="0" branch-rate="0">
+            <method name="get_open_server" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="268" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_open_ui" signature="" line-rate="0" branch-rate="0">
+            <method name="get_open_ui" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="277" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="is_open_failed" signature="" line-rate="0.666666666666667" branch-rate="0">
+            <method name="is_open_failed" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
               <lines>
                 <line number="284" hits="6" branch="false"/>
                 <line number="285" hits="6" branch="false"/>
                 <line number="287" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_open_args" signature="" line-rate="0.833333333333333" branch-rate="0">
+            <method name="set_open_args" signature="" line-rate="0.833333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="298" hits="2" branch="false"/>
                 <line number="299" hits="2" branch="false"/>
@@ -8358,7 +8361,7 @@
                 <line number="305" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="set_preopen_server" signature="" line-rate="0.384615384615385" branch-rate="0">
+            <method name="set_preopen_server" signature="" line-rate="0.384615384615385" branch-rate="0" complexity="0">
               <lines>
                 <line number="317" hits="2" branch="false"/>
                 <line number="318" hits="2" branch="false"/>
@@ -8388,7 +8391,7 @@
                 <line number="314" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_open_server" signature="" line-rate="0.4" branch-rate="0">
+            <method name="set_open_server" signature="" line-rate="0.4" branch-rate="0" complexity="0">
               <lines>
                 <line number="354" hits="2" branch="false"/>
                 <line number="355" hits="2" branch="false"/>
@@ -8417,7 +8420,7 @@
                 <line number="381" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="set_open_ui" signature="" line-rate="0" branch-rate="0">
+            <method name="set_open_ui" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="392" hits="0" branch="false"/>
                 <line number="393" hits="0" branch="false"/>
@@ -8434,7 +8437,7 @@
                 <line number="406" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="close" signature="" line-rate="0.818181818181818" branch-rate="0">
+            <method name="close" signature="" line-rate="0.818181818181818" branch-rate="0" complexity="0">
               <lines>
                 <line number="419" hits="33" branch="false"/>
                 <line number="420" hits="33" branch="false"/>
@@ -8449,7 +8452,7 @@
                 <line number="431" hits="4" branch="false"/>
               </lines>
             </method>
-            <method name="get_close_call" signature="" line-rate="0.75" branch-rate="0">
+            <method name="get_close_call" signature="" line-rate="0.75" branch-rate="0" complexity="0">
               <lines>
                 <line number="442" hits="30" branch="false"/>
                 <line number="443" hits="30" branch="false"/>
@@ -8457,24 +8460,24 @@
                 <line number="446" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_close_error_message" signature="" line-rate="0" branch-rate="0">
+            <method name="get_close_error_message" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="455" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_close_server" signature="" line-rate="0" branch-rate="0">
+            <method name="get_close_server" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="462" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="is_close_failed" signature="" line-rate="0" branch-rate="0">
+            <method name="is_close_failed" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="469" hits="0" branch="false"/>
                 <line number="470" hits="0" branch="false"/>
                 <line number="472" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_close_args" signature="" line-rate="0" branch-rate="0">
+            <method name="set_close_args" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="484" hits="0" branch="false"/>
                 <line number="485" hits="0" branch="false"/>
@@ -8484,7 +8487,7 @@
                 <line number="491" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_close_ui" signature="" line-rate="0" branch-rate="0">
+            <method name="set_close_ui" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="503" hits="0" branch="false"/>
                 <line number="504" hits="0" branch="false"/>
@@ -8501,7 +8504,7 @@
                 <line number="517" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_close_server" signature="" line-rate="0.263157894736842" branch-rate="0">
+            <method name="set_close_server" signature="" line-rate="0.263157894736842" branch-rate="0" complexity="0">
               <lines>
                 <line number="532" hits="2" branch="false"/>
                 <line number="533" hits="2" branch="false"/>
@@ -8543,7 +8546,7 @@
                 <line number="574" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
+            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0" complexity="0">
               <lines>
                 <line number="115" hits="155" branch="false"/>
                 <line number="409" hits="222" branch="false"/>
@@ -8552,7 +8555,7 @@
                 <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
-            <method name="check_open_fun" signature="" line-rate="0.428571428571429" branch-rate="0">
+            <method name="check_open_fun" signature="" line-rate="0.428571428571429" branch-rate="0" complexity="0">
               <lines>
                 <line number="605" hits="42" branch="false"/>
                 <line number="607" hits="42" branch="false"/>
@@ -8563,7 +8566,7 @@
                 <line number="615" hits="42" branch="false"/>
               </lines>
             </method>
-            <method name="check_close_fun" signature="" line-rate="0.857142857142857" branch-rate="0">
+            <method name="check_close_fun" signature="" line-rate="0.857142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="619" hits="63" branch="false"/>
                 <line number="621" hits="63" branch="false"/>
@@ -8574,28 +8577,28 @@
                 <line number="629" hits="4" branch="false"/>
               </lines>
             </method>
-            <method name="set_close_fun" signature="" line-rate="1" branch-rate="0">
+            <method name="set_close_fun" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="639" hits="3" branch="false"/>
                 <line number="640" hits="3" branch="false"/>
                 <line number="641" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="set_open_fun" signature="" line-rate="1" branch-rate="0">
+            <method name="set_open_fun" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="650" hits="21" branch="false"/>
                 <line number="651" hits="21" branch="false"/>
                 <line number="652" hits="21" branch="false"/>
               </lines>
             </method>
-            <method name="set_ping_fun" signature="" line-rate="0" branch-rate="0">
+            <method name="set_ping_fun" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="661" hits="0" branch="false"/>
                 <line number="662" hits="0" branch="false"/>
                 <line number="663" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="ping" signature="" line-rate="0.5" branch-rate="0">
+            <method name="ping" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="670" hits="1" branch="false"/>
                 <line number="671" hits="1" branch="false"/>
@@ -8605,7 +8608,7 @@
                 <line number="676" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="data_connection" signature="" line-rate="1" branch-rate="0">
+            <method name="data_connection" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="720" hits="6" branch="false"/>
                 <line number="721" hits="6" branch="false"/>
@@ -8915,7 +8918,7 @@
         </class>
         <class name="TealDataConnector.R" filename="R/TealDataConnector.R" line-rate="0.479591836734694" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -9122,7 +9125,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="print" signature="" line-rate="0.95" branch-rate="0">
+            <method name="print" signature="" line-rate="0.95" branch-rate="0" complexity="0">
               <lines>
                 <line number="156" hits="2" branch="false"/>
                 <line number="157" hits="2" branch="false"/>
@@ -9186,12 +9189,12 @@
                 <line number="106" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="get_connection" signature="" line-rate="1" branch-rate="0">
+            <method name="get_connection" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="155" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0">
+            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0" complexity="0">
               <lines>
                 <line number="147" hits="46" branch="false"/>
                 <line number="149" hits="46" branch="false"/>
@@ -9238,7 +9241,7 @@
                 <line number="162" hits="187" branch="false"/>
               </lines>
             </method>
-            <method name="get_server" signature="" line-rate="0.147058823529412" branch-rate="0">
+            <method name="get_server" signature="" line-rate="0.147058823529412" branch-rate="0" complexity="0">
               <lines>
                 <line number="219" hits="0" branch="false"/>
                 <line number="220" hits="0" branch="false"/>
@@ -9276,7 +9279,7 @@
                 <line number="456" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_preopen_server" signature="" line-rate="0" branch-rate="0">
+            <method name="get_preopen_server" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="261" hits="0" branch="false"/>
                 <line number="218" hits="0" branch="false"/>
@@ -9291,7 +9294,7 @@
                 <line number="227" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_ui" signature="" line-rate="0.947368421052632" branch-rate="0">
+            <method name="get_ui" signature="" line-rate="0.947368421052632" branch-rate="0" complexity="0">
               <lines>
                 <line number="206" hits="4" branch="false"/>
                 <line number="207" hits="0" branch="false"/>
@@ -9314,14 +9317,14 @@
                 <line number="449" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="set_pull_args" signature="" line-rate="1" branch-rate="0">
+            <method name="set_pull_args" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="262" hits="1" branch="false"/>
                 <line number="263" hits="1" branch="false"/>
                 <line number="264" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="set_ui" signature="" line-rate="0.193548387096774" branch-rate="0">
+            <method name="set_ui" signature="" line-rate="0.193548387096774" branch-rate="0" complexity="0">
               <lines>
                 <line number="275" hits="4" branch="false"/>
                 <line number="276" hits="4" branch="false"/>
@@ -9356,7 +9359,7 @@
                 <line number="741" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_server" signature="" line-rate="1" branch-rate="0">
+            <method name="set_server" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="294" hits="2" branch="false"/>
                 <line number="295" hits="2" branch="false"/>
@@ -9365,7 +9368,7 @@
                 <line number="298" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="set_preopen_server" signature="" line-rate="0.384615384615385" branch-rate="0">
+            <method name="set_preopen_server" signature="" line-rate="0.384615384615385" branch-rate="0" complexity="0">
               <lines>
                 <line number="317" hits="2" branch="false"/>
                 <line number="318" hits="2" branch="false"/>
@@ -9395,7 +9398,7 @@
                 <line number="314" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="pull" signature="" line-rate="0.978723404255319" branch-rate="0">
+            <method name="pull" signature="" line-rate="0.978723404255319" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="30" branch="false"/>
                 <line number="107" hits="30" branch="false"/>
@@ -9446,7 +9449,7 @@
                 <line number="328" hits="117" branch="false"/>
               </lines>
             </method>
-            <method name="launch" signature="" line-rate="0" branch-rate="0">
+            <method name="launch" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="248" hits="0" branch="false"/>
                 <line number="249" hits="0" branch="false"/>
@@ -9609,7 +9612,7 @@
                 <line number="495" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0">
+            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="232" branch="false"/>
                 <line number="107" hits="232" branch="false"/>
@@ -9690,7 +9693,7 @@
                 <line number="369" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0">
+            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="154" branch="false"/>
                 <line number="106" hits="0" branch="false"/>
@@ -9699,7 +9702,7 @@
                 <line number="378" hits="146" branch="false"/>
               </lines>
             </method>
-            <method name="append_connection_code" signature="" line-rate="0" branch-rate="0">
+            <method name="append_connection_code" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="462" hits="0" branch="false"/>
                 <line number="463" hits="0" branch="false"/>
@@ -9719,7 +9722,7 @@
                 <line number="477" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="relational_data_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="relational_data_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="567" hits="2" branch="false"/>
                 <line number="568" hits="2" branch="false"/>
@@ -9928,7 +9931,7 @@
         </class>
         <class name="TealDataset.R" filename="R/TealDataset.R" line-rate="0.93732970027248" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -10135,7 +10138,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="recreate" signature="" line-rate="1" branch-rate="0">
+            <method name="recreate" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="91" hits="8" branch="false"/>
                 <line number="92" hits="8" branch="false"/>
@@ -10162,7 +10165,7 @@
                 <line number="105" hits="53" branch="false"/>
               </lines>
             </method>
-            <method name="print" signature="" line-rate="0.95" branch-rate="0">
+            <method name="print" signature="" line-rate="0.95" branch-rate="0" complexity="0">
               <lines>
                 <line number="156" hits="2" branch="false"/>
                 <line number="157" hits="2" branch="false"/>
@@ -10226,7 +10229,7 @@
                 <line number="106" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="12" hits="137" branch="false"/>
                 <line number="179" hits="5" branch="false"/>
@@ -10248,7 +10251,7 @@
                 <line number="183" hits="101" branch="false"/>
               </lines>
             </method>
-            <method name="get_attrs" signature="" line-rate="0" branch-rate="0">
+            <method name="get_attrs" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="108" hits="0" branch="false"/>
                 <line number="109" hits="0" branch="false"/>
@@ -10272,7 +10275,7 @@
                 <line number="151" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_raw_data" signature="" line-rate="1" branch-rate="0">
+            <method name="get_raw_data" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="16" hits="216" branch="false"/>
                 <line number="17" hits="215" branch="false"/>
@@ -10281,28 +10284,28 @@
                 <line number="206" hits="59" branch="false"/>
               </lines>
             </method>
-            <method name="get_numeric_colnames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_numeric_colnames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="163" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_character_colnames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_character_colnames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="169" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_factor_colnames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_factor_colnames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="175" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_colnames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_colnames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="147" hits="8" branch="false"/>
                 <line number="181" hits="128" branch="false"/>
               </lines>
             </method>
-            <method name="get_column_labels" signature="" line-rate="0.0769230769230769" branch-rate="0">
+            <method name="get_column_labels" signature="" line-rate="0.0769230769230769" branch-rate="0" complexity="0">
               <lines>
                 <line number="153" hits="0" branch="false"/>
                 <line number="154" hits="0" branch="false"/>
@@ -10319,37 +10322,37 @@
                 <line number="187" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_ncol" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_ncol" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="170" hits="0" branch="false"/>
                 <line number="193" hits="9" branch="false"/>
               </lines>
             </method>
-            <method name="get_nrow" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_nrow" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="176" hits="0" branch="false"/>
                 <line number="199" hits="17" branch="false"/>
               </lines>
             </method>
-            <method name="get_rownames" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_rownames" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="182" hits="0" branch="false"/>
                 <line number="205" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="get_row_labels" signature="" line-rate="1" branch-rate="0">
+            <method name="get_row_labels" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="211" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataname" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataname" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="14" hits="740" branch="false"/>
                 <line number="217" hits="1231" branch="false"/>
                 <line number="115" hits="524" branch="false"/>
               </lines>
             </method>
-            <method name="get_datanames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_datanames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="167" hits="209" branch="false"/>
                 <line number="169" hits="209" branch="false"/>
@@ -10357,32 +10360,32 @@
                 <line number="122" hits="11" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset_label" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset_label" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="56" branch="false"/>
                 <line number="229" hits="95" branch="false"/>
                 <line number="129" hits="139" branch="false"/>
               </lines>
             </method>
-            <method name="get_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="get_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="14" hits="102" branch="false"/>
                 <line number="235" hits="212" branch="false"/>
                 <line number="135" hits="159" branch="false"/>
               </lines>
             </method>
-            <method name="get_metadata" signature="" line-rate="1" branch-rate="0">
+            <method name="get_metadata" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="241" hits="103" branch="false"/>
               </lines>
             </method>
-            <method name="get_var_r6" signature="" line-rate="1" branch-rate="0">
+            <method name="get_var_r6" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="248" hits="105" branch="false"/>
                 <line number="213" hits="47" branch="false"/>
               </lines>
             </method>
-            <method name="reassign_datasets_vars" signature="" line-rate="0.967741935483871" branch-rate="0">
+            <method name="reassign_datasets_vars" signature="" line-rate="0.967741935483871" branch-rate="0" complexity="0">
               <lines>
                 <line number="386" hits="3" branch="false"/>
                 <line number="387" hits="6" branch="false"/>
@@ -10417,7 +10420,7 @@
                 <line number="243" hits="7" branch="false"/>
               </lines>
             </method>
-            <method name="set_dataset_label" signature="" line-rate="0.888888888888889" branch-rate="0">
+            <method name="set_dataset_label" signature="" line-rate="0.888888888888889" branch-rate="0" complexity="0">
               <lines>
                 <line number="294" hits="509" branch="false"/>
                 <line number="295" hits="166" branch="false"/>
@@ -10439,7 +10442,7 @@
                 <line number="262" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0">
+            <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="120" branch="false"/>
                 <line number="309" hits="629" branch="false"/>
@@ -10458,14 +10461,14 @@
                 <line number="275" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_vars" signature="" line-rate="1" branch-rate="0">
+            <method name="set_vars" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="325" hits="579" branch="false"/>
                 <line number="326" hits="575" branch="false"/>
                 <line number="328" hits="575" branch="false"/>
               </lines>
             </method>
-            <method name="set_code" signature="" line-rate="1" branch-rate="0">
+            <method name="set_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="95" hits="795" branch="false"/>
                 <line number="96" hits="795" branch="false"/>
@@ -10486,7 +10489,7 @@
                 <line number="345" hits="300" branch="false"/>
               </lines>
             </method>
-            <method name="get_code" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="114" hits="274" branch="false"/>
                 <line number="115" hits="274" branch="false"/>
@@ -10504,7 +10507,7 @@
                 <line number="146" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0">
+            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0" complexity="0">
               <lines>
                 <line number="147" hits="46" branch="false"/>
                 <line number="149" hits="46" branch="false"/>
@@ -10551,7 +10554,7 @@
                 <line number="162" hits="187" branch="false"/>
               </lines>
             </method>
-            <method name="get_mutate_code_class" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_mutate_code_class" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="437" hits="71" branch="false"/>
                 <line number="438" hits="71" branch="false"/>
@@ -10563,7 +10566,7 @@
                 <line number="387" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_vars" signature="" line-rate="1" branch-rate="0">
+            <method name="get_vars" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="394" hits="17" branch="false"/>
                 <line number="395" hits="17" branch="false"/>
@@ -10571,12 +10574,12 @@
                 <line number="397" hits="17" branch="false"/>
               </lines>
             </method>
-            <method name="get_mutate_vars" signature="" line-rate="1" branch-rate="0">
+            <method name="get_mutate_vars" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="404" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="is_mutate_delayed" signature="" line-rate="1" branch-rate="0">
+            <method name="is_mutate_delayed" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="411" hits="350" branch="false"/>
                 <line number="392" hits="58" branch="false"/>
@@ -10584,7 +10587,7 @@
                 <line number="395" hits="56" branch="false"/>
               </lines>
             </method>
-            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0">
+            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="232" branch="false"/>
                 <line number="107" hits="232" branch="false"/>
@@ -10665,7 +10668,7 @@
                 <line number="369" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0">
+            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0" complexity="0">
               <lines>
                 <line number="94" hits="3" branch="false"/>
                 <line number="95" hits="3" branch="false"/>
@@ -10741,7 +10744,7 @@
                 <line number="406" hits="10" branch="false"/>
               </lines>
             </method>
-            <method name="check_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="check_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="128" hits="8" branch="false"/>
                 <line number="129" hits="3" branch="false"/>
@@ -10766,7 +10769,7 @@
                 <line number="531" hits="75" branch="false"/>
               </lines>
             </method>
-            <method name="is_pulled" signature="" line-rate="1" branch-rate="0">
+            <method name="is_pulled" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="245" branch="false"/>
                 <line number="236" hits="128" branch="false"/>
@@ -10774,7 +10777,7 @@
                 <line number="385" hits="702" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_delayed" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_delayed" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="556" hits="97" branch="false"/>
                 <line number="557" hits="93" branch="false"/>
@@ -10789,7 +10792,7 @@
                 <line number="566" hits="93" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_eager" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_eager" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="569" hits="60" branch="false"/>
                 <line number="570" hits="60" branch="false"/>
@@ -10817,7 +10820,7 @@
                 <line number="603" hits="55" branch="false"/>
               </lines>
             </method>
-            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
+            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0" complexity="0">
               <lines>
                 <line number="115" hits="155" branch="false"/>
                 <line number="409" hits="222" branch="false"/>
@@ -10826,7 +10829,7 @@
                 <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
-            <method name="get_class_colnames" signature="" line-rate="0.5" branch-rate="0">
+            <method name="get_class_colnames" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="199" hits="0" branch="false"/>
                 <line number="201" hits="0" branch="false"/>
@@ -10846,7 +10849,7 @@
                 <line number="620" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_list_to_code_class" signature="" line-rate="1" branch-rate="0">
+            <method name="mutate_list_to_code_class" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="623" hits="445" branch="false"/>
                 <line number="624" hits="445" branch="false"/>
@@ -10860,7 +10863,7 @@
                 <line number="635" hits="445" branch="false"/>
               </lines>
             </method>
-            <method name="append_mutate_code" signature="" line-rate="1" branch-rate="0">
+            <method name="append_mutate_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="638" hits="55" branch="false"/>
                 <line number="639" hits="57" branch="false"/>
@@ -10872,7 +10875,7 @@
                 <line number="646" hits="46" branch="false"/>
               </lines>
             </method>
-            <method name="is_any_dependency_delayed" signature="" line-rate="1" branch-rate="0">
+            <method name="is_any_dependency_delayed" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="651" hits="101" branch="false"/>
                 <line number="652" hits="101" branch="false"/>
@@ -10889,7 +10892,7 @@
                 <line number="663" hits="101" branch="false"/>
               </lines>
             </method>
-            <method name="set_vars_internal" signature="" line-rate="1" branch-rate="0">
+            <method name="set_vars_internal" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="670" hits="676" branch="false"/>
                 <line number="671" hits="676" branch="false"/>
@@ -10918,7 +10921,7 @@
                 <line number="702" hits="668" branch="false"/>
               </lines>
             </method>
-            <method name="execute_code" signature="" line-rate="0.681818181818182" branch-rate="0">
+            <method name="execute_code" signature="" line-rate="0.681818181818182" branch-rate="0" complexity="0">
               <lines>
                 <line number="217" hits="2" branch="false"/>
                 <line number="218" hits="2" branch="false"/>
@@ -10966,7 +10969,7 @@
                 <line number="744" hits="76" branch="false"/>
               </lines>
             </method>
-            <method name="set_dataname" signature="" line-rate="1" branch-rate="0">
+            <method name="set_dataname" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="751" hits="508" branch="false"/>
                 <line number="752" hits="508" branch="false"/>
@@ -10977,7 +10980,7 @@
                 <line number="711" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_var_r6" signature="" line-rate="0.958333333333333" branch-rate="0">
+            <method name="set_var_r6" signature="" line-rate="0.958333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="756" hits="674" branch="false"/>
                 <line number="757" hits="674" branch="false"/>
@@ -11005,27 +11008,27 @@
                 <line number="705" hits="234" branch="false"/>
               </lines>
             </method>
-            <method name="raw_data" signature="" line-rate="1" branch-rate="0">
+            <method name="raw_data" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="779" hits="37" branch="false"/>
               </lines>
             </method>
-            <method name="data" signature="" line-rate="1" branch-rate="0">
+            <method name="data" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="783" hits="40" branch="false"/>
               </lines>
             </method>
-            <method name="var_names" signature="" line-rate="1" branch-rate="0">
+            <method name="var_names" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="787" hits="37" branch="false"/>
               </lines>
             </method>
-            <method name="dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="857" hits="259" branch="false"/>
               </lines>
             </method>
-            <method name="dataset.data.frame" signature="" line-rate="1" branch-rate="0">
+            <method name="dataset.data.frame" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="869" hits="255" branch="false"/>
                 <line number="870" hits="255" branch="false"/>
@@ -11045,7 +11048,7 @@
                 <line number="885" hits="255" branch="false"/>
               </lines>
             </method>
-            <method name="dataset_file" signature="" line-rate="1" branch-rate="0">
+            <method name="dataset_file" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="934" hits="2" branch="false"/>
                 <line number="935" hits="1" branch="false"/>
@@ -11425,7 +11428,7 @@
         </class>
         <class name="TealDatasetConnector_constructors.R" filename="R/TealDatasetConnector_constructors.R" line-rate="0.823333333333333" branch-rate="0" complexity="0">
           <methods>
-            <method name="dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="75" hits="114" branch="false"/>
                 <line number="76" hits="113" branch="false"/>
@@ -11446,7 +11449,7 @@
                 <line number="95" hits="113" branch="false"/>
               </lines>
             </method>
-            <method name="cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="119" hits="37" branch="false"/>
                 <line number="120" hits="37" branch="false"/>
@@ -11469,19 +11472,19 @@
                 <line number="141" hits="37" branch="false"/>
               </lines>
             </method>
-            <method name="dataset_connector_file" signature="" line-rate="0" branch-rate="0">
+            <method name="dataset_connector_file" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="176" hits="0" branch="false"/>
                 <line number="177" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="cdisc_dataset_connector_file" signature="" line-rate="0" branch-rate="0">
+            <method name="cdisc_dataset_connector_file" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="211" hits="0" branch="false"/>
                 <line number="212" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="scda_dataset_connector" signature="" line-rate="0.933333333333333" branch-rate="0">
+            <method name="scda_dataset_connector" signature="" line-rate="0.933333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="258" hits="15" branch="false"/>
                 <line number="259" hits="15" branch="false"/>
@@ -11500,7 +11503,7 @@
                 <line number="275" hits="15" branch="false"/>
               </lines>
             </method>
-            <method name="scda_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="scda_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="299" hits="5" branch="false"/>
                 <line number="300" hits="5" branch="false"/>
@@ -11519,7 +11522,7 @@
                 <line number="315" hits="5" branch="false"/>
               </lines>
             </method>
-            <method name="rds_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="rds_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="355" hits="4" branch="false"/>
                 <line number="356" hits="4" branch="false"/>
@@ -11540,7 +11543,7 @@
                 <line number="375" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="rds_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="rds_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="400" hits="2" branch="false"/>
                 <line number="401" hits="2" branch="false"/>
@@ -11558,7 +11561,7 @@
                 <line number="415" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="script_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="script_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="453" hits="4" branch="false"/>
                 <line number="454" hits="4" branch="false"/>
@@ -11579,7 +11582,7 @@
                 <line number="473" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="script_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="script_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="498" hits="1" branch="false"/>
                 <line number="499" hits="1" branch="false"/>
@@ -11598,7 +11601,7 @@
                 <line number="514" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="code_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="code_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="576" hits="6" branch="false"/>
                 <line number="577" hits="6" branch="false"/>
@@ -11617,7 +11620,7 @@
                 <line number="593" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="code_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="code_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="617" hits="1" branch="false"/>
                 <line number="618" hits="1" branch="false"/>
@@ -11635,7 +11638,7 @@
                 <line number="632" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="csv_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="csv_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="675" hits="13" branch="false"/>
                 <line number="676" hits="13" branch="false"/>
@@ -11662,7 +11665,7 @@
                 <line number="706" hits="9" branch="false"/>
               </lines>
             </method>
-            <method name="csv_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="csv_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="731" hits="9" branch="false"/>
                 <line number="732" hits="9" branch="false"/>
@@ -11680,7 +11683,7 @@
                 <line number="746" hits="9" branch="false"/>
               </lines>
             </method>
-            <method name="fun_dataset_connector" signature="" line-rate="0.857142857142857" branch-rate="0">
+            <method name="fun_dataset_connector" signature="" line-rate="0.857142857142857" branch-rate="0" complexity="0">
               <lines>
                 <line number="803" hits="19" branch="false"/>
                 <line number="804" hits="19" branch="false"/>
@@ -11726,7 +11729,7 @@
                 <line number="860" hits="19" branch="false"/>
               </lines>
             </method>
-            <method name="fun_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0">
+            <method name="fun_cdisc_dataset_connector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="887" hits="4" branch="false"/>
                 <line number="888" hits="4" branch="false"/>
@@ -11747,7 +11750,7 @@
                 <line number="905" hits="4" branch="false"/>
               </lines>
             </method>
-            <method name="python_dataset_connector" signature="" line-rate="0" branch-rate="0">
+            <method name="python_dataset_connector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="1033" hits="0" branch="false"/>
                 <line number="1034" hits="0" branch="false"/>
@@ -11776,7 +11779,7 @@
                 <line number="1066" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="python_cdisc_dataset_connector" signature="" line-rate="0" branch-rate="0">
+            <method name="python_cdisc_dataset_connector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="1091" hits="0" branch="false"/>
                 <line number="1092" hits="0" branch="false"/>
@@ -12103,7 +12106,7 @@
         </class>
         <class name="TealDatasetConnector.R" filename="R/TealDatasetConnector.R" line-rate="0.723926380368098" branch-rate="0" complexity="0">
           <methods>
-            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0">
+            <method name="initialize" signature="" line-rate="0.921182266009852" branch-rate="0" complexity="0">
               <lines>
                 <line number="21" hits="231" branch="false"/>
                 <line number="22" hits="231" branch="false"/>
@@ -12310,7 +12313,7 @@
                 <line number="85" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="print" signature="" line-rate="0.95" branch-rate="0">
+            <method name="print" signature="" line-rate="0.95" branch-rate="0" complexity="0">
               <lines>
                 <line number="156" hits="2" branch="false"/>
                 <line number="157" hits="2" branch="false"/>
@@ -12374,14 +12377,14 @@
                 <line number="106" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataname" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataname" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="14" hits="740" branch="false"/>
                 <line number="217" hits="1231" branch="false"/>
                 <line number="115" hits="524" branch="false"/>
               </lines>
             </method>
-            <method name="get_datanames" signature="" line-rate="1" branch-rate="0">
+            <method name="get_datanames" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="167" hits="209" branch="false"/>
                 <line number="169" hits="209" branch="false"/>
@@ -12389,21 +12392,21 @@
                 <line number="122" hits="11" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset_label" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset_label" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="56" branch="false"/>
                 <line number="229" hits="95" branch="false"/>
                 <line number="129" hits="139" branch="false"/>
               </lines>
             </method>
-            <method name="get_keys" signature="" line-rate="1" branch-rate="0">
+            <method name="get_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="14" hits="102" branch="false"/>
                 <line number="235" hits="212" branch="false"/>
                 <line number="135" hits="159" branch="false"/>
               </lines>
             </method>
-            <method name="get_code" signature="" line-rate="1" branch-rate="0">
+            <method name="get_code" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="114" hits="274" branch="false"/>
                 <line number="115" hits="274" branch="false"/>
@@ -12421,7 +12424,7 @@
                 <line number="146" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0">
+            <method name="get_code_class" signature="" line-rate="0.930232558139535" branch-rate="0" complexity="0">
               <lines>
                 <line number="147" hits="46" branch="false"/>
                 <line number="149" hits="46" branch="false"/>
@@ -12468,12 +12471,12 @@
                 <line number="162" hits="187" branch="false"/>
               </lines>
             </method>
-            <method name="get_pull_args" signature="" line-rate="0" branch-rate="0">
+            <method name="get_pull_args" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="169" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_dataset" signature="" line-rate="1" branch-rate="0">
+            <method name="get_dataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="12" hits="137" branch="false"/>
                 <line number="179" hits="5" branch="false"/>
@@ -12495,18 +12498,18 @@
                 <line number="183" hits="101" branch="false"/>
               </lines>
             </method>
-            <method name="get_error_message" signature="" line-rate="1" branch-rate="0">
+            <method name="get_error_message" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="100" hits="3" branch="false"/>
                 <line number="191" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="get_pull_callable" signature="" line-rate="1" branch-rate="0">
+            <method name="get_pull_callable" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="198" hits="34" branch="false"/>
               </lines>
             </method>
-            <method name="get_raw_data" signature="" line-rate="1" branch-rate="0">
+            <method name="get_raw_data" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="16" hits="216" branch="false"/>
                 <line number="17" hits="215" branch="false"/>
@@ -12515,13 +12518,13 @@
                 <line number="206" hits="59" branch="false"/>
               </lines>
             </method>
-            <method name="get_var_r6" signature="" line-rate="1" branch-rate="0">
+            <method name="get_var_r6" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="248" hits="105" branch="false"/>
                 <line number="213" hits="47" branch="false"/>
               </lines>
             </method>
-            <method name="reassign_datasets_vars" signature="" line-rate="0.967741935483871" branch-rate="0">
+            <method name="reassign_datasets_vars" signature="" line-rate="0.967741935483871" branch-rate="0" complexity="0">
               <lines>
                 <line number="386" hits="3" branch="false"/>
                 <line number="387" hits="6" branch="false"/>
@@ -12556,7 +12559,7 @@
                 <line number="243" hits="7" branch="false"/>
               </lines>
             </method>
-            <method name="set_dataset_label" signature="" line-rate="0.888888888888889" branch-rate="0">
+            <method name="set_dataset_label" signature="" line-rate="0.888888888888889" branch-rate="0" complexity="0">
               <lines>
                 <line number="294" hits="509" branch="false"/>
                 <line number="295" hits="166" branch="false"/>
@@ -12578,7 +12581,7 @@
                 <line number="262" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0">
+            <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="120" branch="false"/>
                 <line number="309" hits="629" branch="false"/>
@@ -12597,7 +12600,7 @@
                 <line number="275" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="pull" signature="" line-rate="0.978723404255319" branch-rate="0">
+            <method name="pull" signature="" line-rate="0.978723404255319" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="30" branch="false"/>
                 <line number="107" hits="30" branch="false"/>
@@ -12648,7 +12651,7 @@
                 <line number="328" hits="117" branch="false"/>
               </lines>
             </method>
-            <method name="set_args" signature="" line-rate="1" branch-rate="0">
+            <method name="set_args" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="93" hits="96" branch="false"/>
                 <line number="94" hits="6" branch="false"/>
@@ -12670,7 +12673,7 @@
                 <line number="339" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0">
+            <method name="mutate" signature="" line-rate="0.883116883116883" branch-rate="0" complexity="0">
               <lines>
                 <line number="106" hits="232" branch="false"/>
                 <line number="107" hits="232" branch="false"/>
@@ -12751,7 +12754,7 @@
                 <line number="369" hits="45" branch="false"/>
               </lines>
             </method>
-            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0">
+            <method name="is_failed" signature="" line-rate="0.4" branch-rate="0" complexity="0">
               <lines>
                 <line number="92" hits="154" branch="false"/>
                 <line number="106" hits="0" branch="false"/>
@@ -12760,7 +12763,7 @@
                 <line number="378" hits="146" branch="false"/>
               </lines>
             </method>
-            <method name="is_pulled" signature="" line-rate="1" branch-rate="0">
+            <method name="is_pulled" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="11" hits="245" branch="false"/>
                 <line number="236" hits="128" branch="false"/>
@@ -12768,7 +12771,7 @@
                 <line number="385" hits="702" branch="false"/>
               </lines>
             </method>
-            <method name="is_mutate_delayed" signature="" line-rate="1" branch-rate="0">
+            <method name="is_mutate_delayed" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="411" hits="350" branch="false"/>
                 <line number="392" hits="58" branch="false"/>
@@ -12776,7 +12779,7 @@
                 <line number="395" hits="56" branch="false"/>
               </lines>
             </method>
-            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0">
+            <method name="check" signature="" line-rate="0.972222222222222" branch-rate="0" complexity="0">
               <lines>
                 <line number="94" hits="3" branch="false"/>
                 <line number="95" hits="3" branch="false"/>
@@ -12852,7 +12855,7 @@
                 <line number="406" hits="10" branch="false"/>
               </lines>
             </method>
-            <method name="set_ui_input" signature="" line-rate="0.888888888888889" branch-rate="0">
+            <method name="set_ui_input" signature="" line-rate="0.888888888888889" branch-rate="0" complexity="0">
               <lines>
                 <line number="430" hits="3" branch="false"/>
                 <line number="431" hits="3" branch="false"/>
@@ -12865,7 +12868,7 @@
                 <line number="440" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="get_ui" signature="" line-rate="0.947368421052632" branch-rate="0">
+            <method name="get_ui" signature="" line-rate="0.947368421052632" branch-rate="0" complexity="0">
               <lines>
                 <line number="206" hits="4" branch="false"/>
                 <line number="207" hits="0" branch="false"/>
@@ -12888,7 +12891,7 @@
                 <line number="449" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="get_server" signature="" line-rate="0.147058823529412" branch-rate="0">
+            <method name="get_server" signature="" line-rate="0.147058823529412" branch-rate="0" complexity="0">
               <lines>
                 <line number="219" hits="0" branch="false"/>
                 <line number="220" hits="0" branch="false"/>
@@ -12926,7 +12929,7 @@
                 <line number="456" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="launch" signature="" line-rate="0" branch-rate="0">
+            <method name="launch" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="248" hits="0" branch="false"/>
                 <line number="249" hits="0" branch="false"/>
@@ -13089,7 +13092,7 @@
                 <line number="495" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="ui" signature="" line-rate="0.772727272727273" branch-rate="0">
+            <method name="ui" signature="" line-rate="0.772727272727273" branch-rate="0" complexity="0">
               <lines>
                 <line number="353" hits="4" branch="false"/>
                 <line number="356" hits="4" branch="false"/>
@@ -13159,7 +13162,7 @@
                 <line number="536" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="server" signature="" line-rate="0" branch-rate="0">
+            <method name="server" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="404" hits="0" branch="false"/>
                 <line number="406" hits="0" branch="false"/>
@@ -13226,7 +13229,7 @@
                 <line number="570" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0">
+            <method name="deep_clone" signature="" line-rate="0.8" branch-rate="0" complexity="0">
               <lines>
                 <line number="115" hits="155" branch="false"/>
                 <line number="409" hits="222" branch="false"/>
@@ -13235,7 +13238,7 @@
                 <line number="576" hits="208" branch="false"/>
               </lines>
             </method>
-            <method name="get_pull_code_class" signature="" line-rate="1" branch-rate="0">
+            <method name="get_pull_code_class" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="443" hits="48" branch="false"/>
                 <line number="444" hits="48" branch="false"/>
@@ -13259,14 +13262,14 @@
                 <line number="596" hits="303" branch="false"/>
               </lines>
             </method>
-            <method name="set_pull_callable" signature="" line-rate="1" branch-rate="0">
+            <method name="set_pull_callable" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="599" hits="189" branch="false"/>
                 <line number="600" hits="189" branch="false"/>
                 <line number="601" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_metadata" signature="" line-rate="1" branch-rate="0">
+            <method name="set_metadata" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="604" hits="189" branch="false"/>
                 <line number="605" hits="4" branch="false"/>
@@ -13275,14 +13278,14 @@
                 <line number="610" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_pull_vars" signature="" line-rate="1" branch-rate="0">
+            <method name="set_pull_vars" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="613" hits="189" branch="false"/>
                 <line number="614" hits="189" branch="false"/>
                 <line number="615" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="pull_metadata_internal" signature="" line-rate="1" branch-rate="0">
+            <method name="pull_metadata_internal" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="618" hits="116" branch="false"/>
                 <line number="619" hits="113" branch="false"/>
@@ -13305,7 +13308,7 @@
                 <line number="642" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="pull_internal" signature="" line-rate="0.91304347826087" branch-rate="0">
+            <method name="pull_internal" signature="" line-rate="0.91304347826087" branch-rate="0" complexity="0">
               <lines>
                 <line number="646" hits="119" branch="false"/>
                 <line number="647" hits="57" branch="false"/>
@@ -13332,7 +13335,7 @@
                 <line number="676" hits="119" branch="false"/>
               </lines>
             </method>
-            <method name="set_failure" signature="" line-rate="0" branch-rate="0">
+            <method name="set_failure" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="679" hits="0" branch="false"/>
                 <line number="680" hits="0" branch="false"/>
@@ -13342,7 +13345,7 @@
                 <line number="686" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="set_var_r6" signature="" line-rate="0.958333333333333" branch-rate="0">
+            <method name="set_var_r6" signature="" line-rate="0.958333333333333" branch-rate="0" complexity="0">
               <lines>
                 <line number="756" hits="674" branch="false"/>
                 <line number="757" hits="674" branch="false"/>
@@ -13370,7 +13373,7 @@
                 <line number="705" hits="234" branch="false"/>
               </lines>
             </method>
-            <method name="set_dataname" signature="" line-rate="1" branch-rate="0">
+            <method name="set_dataname" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="751" hits="508" branch="false"/>
                 <line number="752" hits="508" branch="false"/>
@@ -13381,7 +13384,7 @@
                 <line number="711" hits="189" branch="false"/>
               </lines>
             </method>
-            <method name="set_ui" signature="" line-rate="0.193548387096774" branch-rate="0">
+            <method name="set_ui" signature="" line-rate="0.193548387096774" branch-rate="0" complexity="0">
               <lines>
                 <line number="275" hits="4" branch="false"/>
                 <line number="276" hits="4" branch="false"/>
@@ -13748,12 +13751,12 @@
         </class>
         <class name="to_relational_data.R" filename="R/to_relational_data.R" line-rate="0.87037037037037" branch-rate="0" complexity="0">
           <methods>
-            <method name="to_relational_data" signature="" line-rate="1" branch-rate="0">
+            <method name="to_relational_data" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="26" hits="18" branch="false"/>
               </lines>
             </method>
-            <method name="to_relational_data.data.frame" signature="" line-rate="0.571428571428571" branch-rate="0">
+            <method name="to_relational_data.data.frame" signature="" line-rate="0.571428571428571" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="2" branch="false"/>
                 <line number="34" hits="2" branch="false"/>
@@ -13764,7 +13767,7 @@
                 <line number="42" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="to_relational_data.TealDataset" signature="" line-rate="1" branch-rate="0">
+            <method name="to_relational_data.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="49" hits="4" branch="false"/>
                 <line number="51" hits="4" branch="false"/>
@@ -13772,12 +13775,12 @@
                 <line number="54" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="to_relational_data.TealDatasetConnector" signature="" line-rate="1" branch-rate="0">
+            <method name="to_relational_data.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="61" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="to_relational_data.list" signature="" line-rate="0.923076923076923" branch-rate="0">
+            <method name="to_relational_data.list" signature="" line-rate="0.923076923076923" branch-rate="0" complexity="0">
               <lines>
                 <line number="67" hits="11" branch="false"/>
                 <line number="68" hits="11" branch="false"/>
@@ -13820,12 +13823,12 @@
                 <line number="114" hits="8" branch="false"/>
               </lines>
             </method>
-            <method name="to_relational_data.MultiAssayExperiment" signature="" line-rate="1" branch-rate="0">
+            <method name="to_relational_data.MultiAssayExperiment" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="121" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="to_relational_data.TealData" signature="" line-rate="0" branch-rate="0">
+            <method name="to_relational_data.TealData" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="127" hits="0" branch="false"/>
               </lines>
@@ -13890,7 +13893,7 @@
         </class>
         <class name="topological_sort.R" filename="R/topological_sort.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="topological_sort" signature="" line-rate="1" branch-rate="0">
+            <method name="topological_sort" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="17" hits="29" branch="false"/>
                 <line number="18" hits="29" branch="false"/>
@@ -13925,7 +13928,7 @@
                 <line number="58" hits="28" branch="false"/>
               </lines>
             </method>
-            <method name="is_dag" signature="" line-rate="1" branch-rate="0">
+            <method name="is_dag" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="68" hits="29" branch="false"/>
               </lines>
@@ -13968,7 +13971,7 @@
         </class>
         <class name="utils.R" filename="R/utils.R" line-rate="0.839285714285714" branch-rate="0" complexity="0">
           <methods>
-            <method name="code_from_script" signature="" line-rate="0.769230769230769" branch-rate="0">
+            <method name="code_from_script" signature="" line-rate="0.769230769230769" branch-rate="0" complexity="0">
               <lines>
                 <line number="12" hits="283" branch="false"/>
                 <line number="13" hits="283" branch="false"/>
@@ -13985,7 +13988,7 @@
                 <line number="30" hits="65" branch="false"/>
               </lines>
             </method>
-            <method name="read_script" signature="" line-rate="1" branch-rate="0">
+            <method name="read_script" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="49" hits="2" branch="false"/>
                 <line number="50" hits="2" branch="false"/>
@@ -14001,7 +14004,7 @@
                 <line number="60" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name="get_package_file" signature="" line-rate="0" branch-rate="0">
+            <method name="get_package_file" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="76" hits="0" branch="false"/>
                 <line number="77" hits="0" branch="false"/>
@@ -14011,7 +14014,7 @@
                 <line number="83" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="object_file" signature="" line-rate="1" branch-rate="0">
+            <method name="object_file" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="89" hits="6" branch="false"/>
                 <line number="90" hits="6" branch="false"/>
@@ -14023,7 +14026,7 @@
                 <line number="99" hits="5" branch="false"/>
               </lines>
             </method>
-            <method name="check_pkg_quietly" signature="" line-rate="1" branch-rate="0">
+            <method name="check_pkg_quietly" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="110" hits="29" branch="false"/>
                 <line number="111" hits="29" branch="false"/>
@@ -14032,7 +14035,7 @@
                 <line number="116" hits="28" branch="false"/>
               </lines>
             </method>
-            <method name="validate_metadata" signature="" line-rate="1" branch-rate="0">
+            <method name="validate_metadata" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="133" hits="751" branch="false"/>
                 <line number="134" hits="745" branch="false"/>
@@ -14041,7 +14044,7 @@
                 <line number="137" hits="741" branch="false"/>
               </lines>
             </method>
-            <method name="get_teal_bs_theme" signature="" line-rate="1" branch-rate="0">
+            <method name="get_teal_bs_theme" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="143" hits="8" branch="false"/>
                 <line number="144" hits="8" branch="false"/>
@@ -14114,7 +14117,7 @@
         </class>
         <class name="validate_data_args.R" filename="R/validate_data_args.R" line-rate="1" branch-rate="0" complexity="0">
           <methods>
-            <method name="check_ellipsis" signature="" line-rate="1" branch-rate="0">
+            <method name="check_ellipsis" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="24" hits="503" branch="false"/>
                 <line number="25" hits="20" branch="false"/>
@@ -14142,7 +14145,7 @@
                 <line number="52" hits="8" branch="false"/>
               </lines>
             </method>
-            <method name="check_simple_name" signature="" line-rate="1" branch-rate="0">
+            <method name="check_simple_name" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="86" hits="524" branch="false"/>
                 <line number="87" hits="524" branch="false"/>
@@ -14192,7 +14195,7 @@
         </class>
         <class name="zzz.R" filename="R/zzz.R" line-rate="0" branch-rate="0" complexity="0">
           <methods>
-            <method name=".onLoad" signature="" line-rate="0" branch-rate="0">
+            <method name=".onLoad" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
                 <line number="4" hits="0" branch="false"/>
                 <line number="5" hits="0" branch="false"/>
