@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.750904536598942" branch-rate="0" lines-covered="2698" lines-valid="3593" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-07 10:43:00.156631">
+<coverage line-rate="0.750904536598942" branch-rate="0" lines-covered="2698" lines-valid="3593" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-07 10:58:07.771342">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
@@ -4205,32 +4205,32 @@
           <methods>
             <method name="get_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="14" hits="92" branch="false"/>
+                <line number="15" hits="1054" branch="false"/>
                 <line number="235" hits="208" branch="false"/>
                 <line number="135" hits="152" branch="false"/>
               </lines>
             </method>
             <method name="get_keys.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="31" hits="72" branch="false"/>
                 <line number="32" hits="72" branch="false"/>
+                <line number="33" hits="72" branch="false"/>
               </lines>
             </method>
             <method name="get_keys.TealDatasetConnector" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="50" hits="20" branch="false"/>
                 <line number="51" hits="20" branch="false"/>
+                <line number="52" hits="20" branch="false"/>
               </lines>
             </method>
             <method name="get_keys.TealDataAbstract" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="67" hits="0" branch="false"/>
                 <line number="68" hits="0" branch="false"/>
+                <line number="69" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0" complexity="0">
               <lines>
-                <line number="87" hits="119" branch="false"/>
+                <line number="88" hits="119" branch="false"/>
                 <line number="309" hits="660" branch="false"/>
                 <line number="310" hits="660" branch="false"/>
                 <line number="311" hits="660" branch="false"/>
@@ -4249,40 +4249,40 @@
             </method>
             <method name="set_keys.TealDataset" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="103" hits="119" branch="false"/>
                 <line number="104" hits="119" branch="false"/>
+                <line number="105" hits="119" branch="false"/>
               </lines>
             </method>
             <method name="set_keys.TealDatasetConnector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="125" hits="0" branch="false"/>
                 <line number="126" hits="0" branch="false"/>
+                <line number="127" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="set_keys.TealDataAbstract" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="143" hits="0" branch="false"/>
                 <line number="144" hits="0" branch="false"/>
                 <line number="145" hits="0" branch="false"/>
+                <line number="146" hits="0" branch="false"/>
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="14" hits="92" branch="false"/>
-            <line number="31" hits="72" branch="false"/>
+            <line number="15" hits="1054" branch="false"/>
             <line number="32" hits="72" branch="false"/>
-            <line number="50" hits="20" branch="false"/>
+            <line number="33" hits="72" branch="false"/>
             <line number="51" hits="20" branch="false"/>
-            <line number="67" hits="0" branch="false"/>
+            <line number="52" hits="20" branch="false"/>
             <line number="68" hits="0" branch="false"/>
-            <line number="87" hits="119" branch="false"/>
-            <line number="103" hits="119" branch="false"/>
+            <line number="69" hits="0" branch="false"/>
+            <line number="88" hits="119" branch="false"/>
             <line number="104" hits="119" branch="false"/>
-            <line number="125" hits="0" branch="false"/>
+            <line number="105" hits="119" branch="false"/>
             <line number="126" hits="0" branch="false"/>
-            <line number="143" hits="0" branch="false"/>
+            <line number="127" hits="0" branch="false"/>
             <line number="144" hits="0" branch="false"/>
             <line number="145" hits="0" branch="false"/>
+            <line number="146" hits="0" branch="false"/>
           </lines>
         </class>
         <class name="get_raw_data.R" filename="R/get_raw_data.R" line-rate="0.541666666666667" branch-rate="0" complexity="0">
@@ -4442,17 +4442,17 @@
                 <line number="50" hits="492" branch="false"/>
               </lines>
             </method>
-            <method name="dataset_1.JoinKeySet" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="get_dataset_1" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="62" hits="960" branch="false"/>
               </lines>
             </method>
-            <method name="dataset_2.JoinKeySet" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="get_dataset_2" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="68" hits="960" branch="false"/>
               </lines>
             </method>
-            <method name="keys.JoinKeySet" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="get_keys.JoinKeySet" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="74" hits="962" branch="false"/>
               </lines>
@@ -10640,7 +10640,7 @@
             </method>
             <method name="get_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="14" hits="92" branch="false"/>
+                <line number="15" hits="1054" branch="false"/>
                 <line number="235" hits="208" branch="false"/>
                 <line number="135" hits="152" branch="false"/>
               </lines>
@@ -10715,7 +10715,7 @@
             </method>
             <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0" complexity="0">
               <lines>
-                <line number="87" hits="119" branch="false"/>
+                <line number="88" hits="119" branch="false"/>
                 <line number="309" hits="660" branch="false"/>
                 <line number="310" hits="660" branch="false"/>
                 <line number="311" hits="660" branch="false"/>
@@ -12579,7 +12579,7 @@
             </method>
             <method name="get_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="14" hits="92" branch="false"/>
+                <line number="15" hits="1054" branch="false"/>
                 <line number="235" hits="208" branch="false"/>
                 <line number="135" hits="152" branch="false"/>
               </lines>
@@ -12761,7 +12761,7 @@
             </method>
             <method name="set_keys" signature="" line-rate="0.933333333333333" branch-rate="0" complexity="0">
               <lines>
-                <line number="87" hits="119" branch="false"/>
+                <line number="88" hits="119" branch="false"/>
                 <line number="309" hits="660" branch="false"/>
                 <line number="310" hits="660" branch="false"/>
                 <line number="311" hits="660" branch="false"/>
