@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.751806559199555" branch-rate="0" lines-covered="2705" lines-valid="3598" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-08 13:19:43.741194">
+<coverage line-rate="0.751806559199555" branch-rate="0" lines-covered="2705" lines-valid="3598" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-08 13:38:30.631688">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
@@ -4520,7 +4520,7 @@
                 <line number="55" hits="310" branch="false"/>
               </lines>
             </method>
-            <method name="join_keys.JoinKeys" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
+            <method name="join_keys.join_keys" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
               <lines>
                 <line number="61" hits="184" branch="false"/>
                 <line number="62" hits="184" branch="false"/>
@@ -4555,7 +4555,7 @@
                 <line number="110" hits="201" branch="false"/>
               </lines>
             </method>
-            <method name="join_keys&lt;-.JoinKeys" signature="" line-rate="0.9375" branch-rate="0" complexity="0">
+            <method name="join_keys&lt;-.join_keys" signature="" line-rate="0.9375" branch-rate="0" complexity="0">
               <lines>
                 <line number="125" hits="165" branch="false"/>
                 <line number="126" hits="0" branch="false"/>
@@ -4586,7 +4586,7 @@
                 <line number="181" hits="12" branch="false"/>
               </lines>
             </method>
-            <method name="[.JoinKeys" signature="" line-rate="0.84" branch-rate="0" complexity="0">
+            <method name="[.join_keys" signature="" line-rate="0.84" branch-rate="0" complexity="0">
               <lines>
                 <line number="209" hits="1" branch="false"/>
                 <line number="210" hits="79" branch="false"/>
@@ -4615,7 +4615,7 @@
                 <line number="239" hits="452" branch="false"/>
               </lines>
             </method>
-            <method name="[&lt;-.JoinKeys" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
+            <method name="[&lt;-.join_keys" signature="" line-rate="0.666666666666667" branch-rate="0" complexity="0">
               <lines>
                 <line number="265" hits="117" branch="false"/>
                 <line number="266" hits="1" branch="false"/>
@@ -4631,14 +4631,14 @@
                 <line number="278" hits="114" branch="false"/>
               </lines>
             </method>
-            <method name="[[.JoinKeys" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="[[.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="289" hits="7678" branch="false"/>
                 <line number="290" hits="80" branch="false"/>
                 <line number="292" hits="7598" branch="false"/>
               </lines>
             </method>
-            <method name="[[&lt;-.JoinKeys" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="[[&lt;-.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="311" hits="1655" branch="false"/>
                 <line number="312" hits="1655" branch="false"/>
@@ -4676,7 +4676,7 @@
                 <line number="301" hits="3" branch="false"/>
               </lines>
             </method>
-            <method name="mutate_join_keys.JoinKeys" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="mutate_join_keys.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="392" hits="130" branch="false"/>
                 <line number="393" hits="130" branch="false"/>
@@ -4700,7 +4700,7 @@
                 <line number="429" hits="1" branch="false"/>
               </lines>
             </method>
-            <method name="merge_join_keys.JoinKeys" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="merge_join_keys.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="443" hits="69" branch="false"/>
                 <line number="445" hits="69" branch="false"/>
@@ -4713,7 +4713,7 @@
                 <line number="458" hits="64" branch="false"/>
               </lines>
             </method>
-            <method name="print.JoinKeys" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="print.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="472" hits="2" branch="false"/>
                 <line number="473" hits="2" branch="false"/>
@@ -5883,7 +5883,7 @@
                 <line number="29" hits="286" branch="false"/>
               </lines>
             </method>
-            <method name="parents.JoinKeys" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="parents.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="38" hits="286" branch="false"/>
               </lines>
@@ -5893,7 +5893,7 @@
                 <line number="51" hits="76" branch="false"/>
               </lines>
             </method>
-            <method name="parents&lt;-.JoinKeys" signature="" line-rate="1" branch-rate="0" complexity="0">
+            <method name="parents&lt;-.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
                 <line number="62" hits="76" branch="false"/>
                 <line number="63" hits="1" branch="false"/>
