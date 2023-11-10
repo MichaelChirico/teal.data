@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.753888888888889" branch-rate="0" lines-covered="2714" lines-valid="3600" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-10 10:40:51.015678">
+<coverage line-rate="0.753888888888889" branch-rate="0" lines-covered="2714" lines-valid="3600" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-10 11:10:25.320932">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
@@ -4711,9 +4711,9 @@
             </method>
             <method name="length.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="447" hits="187" branch="false"/>
-                <line number="448" hits="16" branch="false"/>
-                <line number="450" hits="171" branch="false"/>
+                <line number="447" hits="139" branch="false"/>
+                <line number="448" hits="10" branch="false"/>
+                <line number="450" hits="129" branch="false"/>
               </lines>
             </method>
             <method name="print.join_keys" signature="" line-rate="1" branch-rate="0" complexity="0">
@@ -4958,9 +4958,9 @@
             <line number="432" hits="84" branch="false"/>
             <line number="435" hits="72" branch="false"/>
             <line number="436" hits="72" branch="false"/>
-            <line number="447" hits="187" branch="false"/>
-            <line number="448" hits="16" branch="false"/>
-            <line number="450" hits="171" branch="false"/>
+            <line number="447" hits="139" branch="false"/>
+            <line number="448" hits="10" branch="false"/>
+            <line number="450" hits="129" branch="false"/>
             <line number="460" hits="2" branch="false"/>
             <line number="461" hits="2" branch="false"/>
             <line number="462" hits="2" branch="false"/>
