@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.744674808293099" branch-rate="0" lines-covered="2622" lines-valid="3521" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-15 12:00:49.943891">
+<coverage line-rate="0.744463373083475" branch-rate="0" lines-covered="2622" lines-valid="3522" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-15 13:10:32.796634">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
   <packages>
-    <package name="teal.data" line-rate="0.744674808293099" branch-rate="0" complexity="0">
+    <package name="teal.data" line-rate="0.744463373083475" branch-rate="0" complexity="0">
       <classes>
         <class name="as_cdisc.R" filename="R/as_cdisc.R" line-rate="0.897435897435897" branch-rate="0" complexity="0">
           <methods>
@@ -3198,7 +3198,7 @@
                 <line number="30" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="teal_data" signature="" line-rate="0.736842105263158" branch-rate="0" complexity="0">
+            <method name="teal_data" signature="" line-rate="0.717948717948718" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
                 <line number="30" hits="75" branch="false"/>
@@ -3237,13 +3237,14 @@
                 <line number="43" hits="0" branch="false"/>
                 <line number="44" hits="0" branch="false"/>
                 <line number="45" hits="0" branch="false"/>
-                <line number="47" hits="0" branch="false"/>
+                <line number="46" hits="0" branch="false"/>
+                <line number="48" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="qenv.error" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="35" hits="2" branch="false"/>
-                <line number="51" hits="0" branch="false"/>
+                <line number="52" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="datanames&lt;-" signature="" line-rate="1" branch-rate="0" complexity="0">
@@ -6272,7 +6273,7 @@
         </class>
         <class name="teal_data.R" filename="R/teal_data.R" line-rate="0.956521739130435" branch-rate="0" complexity="0">
           <methods>
-            <method name="teal_data" signature="" line-rate="0.736842105263158" branch-rate="0" complexity="0">
+            <method name="teal_data" signature="" line-rate="0.717948717948718" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
                 <line number="30" hits="75" branch="false"/>
@@ -6311,7 +6312,8 @@
                 <line number="43" hits="0" branch="false"/>
                 <line number="44" hits="0" branch="false"/>
                 <line number="45" hits="0" branch="false"/>
-                <line number="47" hits="0" branch="false"/>
+                <line number="46" hits="0" branch="false"/>
+                <line number="48" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="teal_data_file" signature="" line-rate="1" branch-rate="0" complexity="0">
@@ -14627,7 +14629,7 @@
                 <line number="35" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="teal_data" signature="" line-rate="0.736842105263158" branch-rate="0" complexity="0">
+            <method name="teal_data" signature="" line-rate="0.717948717948718" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
                 <line number="30" hits="75" branch="false"/>
@@ -14666,13 +14668,14 @@
                 <line number="43" hits="0" branch="false"/>
                 <line number="44" hits="0" branch="false"/>
                 <line number="45" hits="0" branch="false"/>
-                <line number="47" hits="0" branch="false"/>
+                <line number="46" hits="0" branch="false"/>
+                <line number="48" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="qenv.error" signature="" line-rate="0.5" branch-rate="0" complexity="0">
               <lines>
                 <line number="35" hits="2" branch="false"/>
-                <line number="51" hits="0" branch="false"/>
+                <line number="52" hits="0" branch="false"/>
               </lines>
             </method>
           </methods>
@@ -14685,8 +14688,9 @@
             <line number="43" hits="0" branch="false"/>
             <line number="44" hits="0" branch="false"/>
             <line number="45" hits="0" branch="false"/>
-            <line number="47" hits="0" branch="false"/>
-            <line number="51" hits="0" branch="false"/>
+            <line number="46" hits="0" branch="false"/>
+            <line number="48" hits="0" branch="false"/>
+            <line number="52" hits="0" branch="false"/>
           </lines>
         </class>
         <class name="zzz.R" filename="R/zzz.R" line-rate="0" branch-rate="0" complexity="0">
