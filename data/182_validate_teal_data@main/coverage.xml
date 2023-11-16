@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.746054114994363" branch-rate="0" lines-covered="2647" lines-valid="3548" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-16 14:58:34.383214">
+<coverage line-rate="0.745633802816901" branch-rate="0" lines-covered="2647" lines-valid="3550" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-16 15:03:01.503982">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
   <packages>
-    <package name="teal.data" line-rate="0.746054114994363" branch-rate="0" complexity="0">
+    <package name="teal.data" line-rate="0.745633802816901" branch-rate="0" complexity="0">
       <classes>
         <class name="as_cdisc.R" filename="R/as_cdisc.R" line-rate="0.897435897435897" branch-rate="0" complexity="0">
           <methods>
@@ -3198,11 +3198,13 @@
                 <line number="30" hits="6" branch="false"/>
               </lines>
             </method>
-            <method name="teal_data" signature="" line-rate="0.838709677419355" branch-rate="0" complexity="0">
+            <method name="teal_data" signature="" line-rate="0.8125" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
+                <line number="16" hits="0" branch="false"/>
+                <line number="18" hits="0" branch="false"/>
                 <line number="30" hits="82" branch="false"/>
                 <line number="31" hits="82" branch="false"/>
                 <line number="32" hits="0" branch="false"/>
@@ -6302,11 +6304,13 @@
         </class>
         <class name="teal_data-show.R" filename="R/teal_data-show.R" line-rate="0" branch-rate="0" complexity="0">
           <methods>
-            <method name="teal_data" signature="" line-rate="0.838709677419355" branch-rate="0" complexity="0">
+            <method name="teal_data" signature="" line-rate="0.8125" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
+                <line number="16" hits="0" branch="false"/>
+                <line number="18" hits="0" branch="false"/>
                 <line number="30" hits="82" branch="false"/>
                 <line number="31" hits="82" branch="false"/>
                 <line number="32" hits="0" branch="false"/>
@@ -6372,15 +6376,19 @@
           <lines>
             <line number="13" hits="0" branch="false"/>
             <line number="14" hits="0" branch="false"/>
+            <line number="16" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="false"/>
           </lines>
         </class>
         <class name="teal_data.R" filename="R/teal_data.R" line-rate="0.956521739130435" branch-rate="0" complexity="0">
           <methods>
-            <method name="teal_data" signature="" line-rate="0.838709677419355" branch-rate="0" complexity="0">
+            <method name="teal_data" signature="" line-rate="0.8125" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
+                <line number="16" hits="0" branch="false"/>
+                <line number="18" hits="0" branch="false"/>
                 <line number="30" hits="82" branch="false"/>
                 <line number="31" hits="82" branch="false"/>
                 <line number="32" hits="0" branch="false"/>
@@ -14755,11 +14763,13 @@
                 <line number="36" hits="5" branch="false"/>
               </lines>
             </method>
-            <method name="teal_data" signature="" line-rate="0.838709677419355" branch-rate="0" complexity="0">
+            <method name="teal_data" signature="" line-rate="0.8125" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
+                <line number="16" hits="0" branch="false"/>
+                <line number="18" hits="0" branch="false"/>
                 <line number="30" hits="82" branch="false"/>
                 <line number="31" hits="82" branch="false"/>
                 <line number="32" hits="0" branch="false"/>
