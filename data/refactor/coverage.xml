@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.796756756756757" branch-rate="0" lines-covered="737" lines-valid="925" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-29 07:36:02.366274">
+<coverage line-rate="0.796756756756757" branch-rate="0" lines-covered="737" lines-valid="925" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-11-29 14:25:08.470232">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
@@ -95,21 +95,21 @@
             <method name="teal_data" signature="" line-rate="0.670731707317073" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
-                <line number="34" hits="2" branch="false"/>
                 <line number="35" hits="2" branch="false"/>
                 <line number="36" hits="2" branch="false"/>
-                <line number="38" hits="2" branch="false"/>
-                <line number="39" hits="0" branch="false"/>
-                <line number="40" hits="2" branch="false"/>
+                <line number="37" hits="2" branch="false"/>
+                <line number="39" hits="2" branch="false"/>
+                <line number="40" hits="0" branch="false"/>
                 <line number="41" hits="2" branch="false"/>
                 <line number="42" hits="2" branch="false"/>
-                <line number="44" hits="2" branch="false"/>
+                <line number="43" hits="2" branch="false"/>
                 <line number="45" hits="2" branch="false"/>
-                <line number="48" hits="2" branch="false"/>
+                <line number="46" hits="2" branch="false"/>
                 <line number="49" hits="2" branch="false"/>
-                <line number="50" hits="0" branch="false"/>
-                <line number="52" hits="2" branch="false"/>
-                <line number="55" hits="0" branch="false"/>
+                <line number="50" hits="2" branch="false"/>
+                <line number="51" hits="0" branch="false"/>
+                <line number="53" hits="2" branch="false"/>
+                <line number="56" hits="0" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
                 <line number="16" hits="0" branch="false"/>
@@ -1718,21 +1718,21 @@
             <method name="teal_data" signature="" line-rate="0.670731707317073" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
-                <line number="34" hits="2" branch="false"/>
                 <line number="35" hits="2" branch="false"/>
                 <line number="36" hits="2" branch="false"/>
-                <line number="38" hits="2" branch="false"/>
-                <line number="39" hits="0" branch="false"/>
-                <line number="40" hits="2" branch="false"/>
+                <line number="37" hits="2" branch="false"/>
+                <line number="39" hits="2" branch="false"/>
+                <line number="40" hits="0" branch="false"/>
                 <line number="41" hits="2" branch="false"/>
                 <line number="42" hits="2" branch="false"/>
-                <line number="44" hits="2" branch="false"/>
+                <line number="43" hits="2" branch="false"/>
                 <line number="45" hits="2" branch="false"/>
-                <line number="48" hits="2" branch="false"/>
+                <line number="46" hits="2" branch="false"/>
                 <line number="49" hits="2" branch="false"/>
-                <line number="50" hits="0" branch="false"/>
-                <line number="52" hits="2" branch="false"/>
-                <line number="55" hits="0" branch="false"/>
+                <line number="50" hits="2" branch="false"/>
+                <line number="51" hits="0" branch="false"/>
+                <line number="53" hits="2" branch="false"/>
+                <line number="56" hits="0" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
                 <line number="16" hits="0" branch="false"/>
@@ -1803,21 +1803,21 @@
             </method>
           </methods>
           <lines>
-            <line number="34" hits="2" branch="false"/>
             <line number="35" hits="2" branch="false"/>
             <line number="36" hits="2" branch="false"/>
-            <line number="38" hits="2" branch="false"/>
-            <line number="39" hits="0" branch="false"/>
-            <line number="40" hits="2" branch="false"/>
+            <line number="37" hits="2" branch="false"/>
+            <line number="39" hits="2" branch="false"/>
+            <line number="40" hits="0" branch="false"/>
             <line number="41" hits="2" branch="false"/>
             <line number="42" hits="2" branch="false"/>
-            <line number="44" hits="2" branch="false"/>
+            <line number="43" hits="2" branch="false"/>
             <line number="45" hits="2" branch="false"/>
-            <line number="48" hits="2" branch="false"/>
+            <line number="46" hits="2" branch="false"/>
             <line number="49" hits="2" branch="false"/>
-            <line number="50" hits="0" branch="false"/>
-            <line number="52" hits="2" branch="false"/>
-            <line number="55" hits="0" branch="false"/>
+            <line number="50" hits="2" branch="false"/>
+            <line number="51" hits="0" branch="false"/>
+            <line number="53" hits="2" branch="false"/>
+            <line number="56" hits="0" branch="false"/>
           </lines>
         </class>
         <class name="teal_data-show.R" filename="R/teal_data-show.R" line-rate="0" branch-rate="0" complexity="0">
@@ -1825,21 +1825,21 @@
             <method name="teal_data" signature="" line-rate="0.670731707317073" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
-                <line number="34" hits="2" branch="false"/>
                 <line number="35" hits="2" branch="false"/>
                 <line number="36" hits="2" branch="false"/>
-                <line number="38" hits="2" branch="false"/>
-                <line number="39" hits="0" branch="false"/>
-                <line number="40" hits="2" branch="false"/>
+                <line number="37" hits="2" branch="false"/>
+                <line number="39" hits="2" branch="false"/>
+                <line number="40" hits="0" branch="false"/>
                 <line number="41" hits="2" branch="false"/>
                 <line number="42" hits="2" branch="false"/>
-                <line number="44" hits="2" branch="false"/>
+                <line number="43" hits="2" branch="false"/>
                 <line number="45" hits="2" branch="false"/>
-                <line number="48" hits="2" branch="false"/>
+                <line number="46" hits="2" branch="false"/>
                 <line number="49" hits="2" branch="false"/>
-                <line number="50" hits="0" branch="false"/>
-                <line number="52" hits="2" branch="false"/>
-                <line number="55" hits="0" branch="false"/>
+                <line number="50" hits="2" branch="false"/>
+                <line number="51" hits="0" branch="false"/>
+                <line number="53" hits="2" branch="false"/>
+                <line number="56" hits="0" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
                 <line number="16" hits="0" branch="false"/>
@@ -1921,21 +1921,21 @@
             <method name="teal_data" signature="" line-rate="0.670731707317073" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
-                <line number="34" hits="2" branch="false"/>
                 <line number="35" hits="2" branch="false"/>
                 <line number="36" hits="2" branch="false"/>
-                <line number="38" hits="2" branch="false"/>
-                <line number="39" hits="0" branch="false"/>
-                <line number="40" hits="2" branch="false"/>
+                <line number="37" hits="2" branch="false"/>
+                <line number="39" hits="2" branch="false"/>
+                <line number="40" hits="0" branch="false"/>
                 <line number="41" hits="2" branch="false"/>
                 <line number="42" hits="2" branch="false"/>
-                <line number="44" hits="2" branch="false"/>
+                <line number="43" hits="2" branch="false"/>
                 <line number="45" hits="2" branch="false"/>
-                <line number="48" hits="2" branch="false"/>
+                <line number="46" hits="2" branch="false"/>
                 <line number="49" hits="2" branch="false"/>
-                <line number="50" hits="0" branch="false"/>
-                <line number="52" hits="2" branch="false"/>
-                <line number="55" hits="0" branch="false"/>
+                <line number="50" hits="2" branch="false"/>
+                <line number="51" hits="0" branch="false"/>
+                <line number="53" hits="2" branch="false"/>
+                <line number="56" hits="0" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
                 <line number="16" hits="0" branch="false"/>
@@ -2624,21 +2624,21 @@
             <method name="teal_data" signature="" line-rate="0.670731707317073" branch-rate="0" complexity="0">
               <lines>
                 <line number="32" hits="4" branch="false"/>
-                <line number="34" hits="2" branch="false"/>
                 <line number="35" hits="2" branch="false"/>
                 <line number="36" hits="2" branch="false"/>
-                <line number="38" hits="2" branch="false"/>
-                <line number="39" hits="0" branch="false"/>
-                <line number="40" hits="2" branch="false"/>
+                <line number="37" hits="2" branch="false"/>
+                <line number="39" hits="2" branch="false"/>
+                <line number="40" hits="0" branch="false"/>
                 <line number="41" hits="2" branch="false"/>
                 <line number="42" hits="2" branch="false"/>
-                <line number="44" hits="2" branch="false"/>
+                <line number="43" hits="2" branch="false"/>
                 <line number="45" hits="2" branch="false"/>
-                <line number="48" hits="2" branch="false"/>
+                <line number="46" hits="2" branch="false"/>
                 <line number="49" hits="2" branch="false"/>
-                <line number="50" hits="0" branch="false"/>
-                <line number="52" hits="2" branch="false"/>
-                <line number="55" hits="0" branch="false"/>
+                <line number="50" hits="2" branch="false"/>
+                <line number="51" hits="0" branch="false"/>
+                <line number="53" hits="2" branch="false"/>
+                <line number="56" hits="0" branch="false"/>
                 <line number="13" hits="0" branch="false"/>
                 <line number="14" hits="0" branch="false"/>
                 <line number="16" hits="0" branch="false"/>
