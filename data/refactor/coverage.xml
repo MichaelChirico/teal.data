@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.785891089108911" branch-rate="0" lines-covered="635" lines-valid="808" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-12-07 15:30:55.953283">
+<coverage line-rate="0.782983970406905" branch-rate="0" lines-covered="635" lines-valid="811" branches-covered="0" branches-valid="0" complexity="0" version="3.6.3" timestamp="2023-12-07 16:09:07.363878">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
   <packages>
-    <package name="teal.data" line-rate="0.785891089108911" branch-rate="0" complexity="0">
+    <package name="teal.data" line-rate="0.782983970406905" branch-rate="0" complexity="0">
       <classes>
         <class name="cdisc_data.R" filename="R/cdisc_data.R" line-rate="0" branch-rate="0" complexity="0">
           <methods>
@@ -405,107 +405,122 @@
                 <line number="194" hits="0" branch="false"/>
               </lines>
             </method>
-            <method name="get_join_keys" signature="" line-rate="0" branch-rate="0" complexity="0">
-              <lines>
-                <line number="202" hits="0" branch="false"/>
-                <line number="203" hits="0" branch="false"/>
-                <line number="204" hits="0" branch="false"/>
-                <line number="205" hits="0" branch="false"/>
-                <line number="206" hits="0" branch="false"/>
-              </lines>
-            </method>
-            <method name="get_join_keys&lt;-" signature="" line-rate="0" branch-rate="0" complexity="0">
-              <lines>
-                <line number="214" hits="0" branch="false"/>
-                <line number="215" hits="0" branch="false"/>
-                <line number="216" hits="0" branch="false"/>
-                <line number="217" hits="0" branch="false"/>
-                <line number="218" hits="0" branch="false"/>
-              </lines>
-            </method>
             <method name="get_key_duplicates" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="224" hits="0" branch="false"/>
+                <line number="200" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_keys" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="230" hits="0" branch="false"/>
+                <line number="206" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="get_raw_data" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="236" hits="0" branch="false"/>
+                <line number="212" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="is_pulled" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="242" hits="0" branch="false"/>
+                <line number="218" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="load_dataset" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="248" hits="0" branch="false"/>
+                <line number="224" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="load_datasets" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="254" hits="0" branch="false"/>
+                <line number="230" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="mutate_data" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="260" hits="0" branch="false"/>
+                <line number="236" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="mutate_dataset" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="266" hits="0" branch="false"/>
+                <line number="242" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="set_args" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="272" hits="0" branch="false"/>
+                <line number="248" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="rds_dataset_connector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="278" hits="0" branch="false"/>
+                <line number="254" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="rds_cdisc_dataset_connector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="284" hits="0" branch="false"/>
+                <line number="260" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="script_dataset_connector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="290" hits="0" branch="false"/>
+                <line number="266" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="script_cdisc_dataset_connector" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="296" hits="0" branch="false"/>
+                <line number="272" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="set_keys" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="302" hits="0" branch="false"/>
+                <line number="278" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="read_script" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="308" hits="0" branch="false"/>
+                <line number="284" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="to_relational_data" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="314" hits="0" branch="false"/>
+                <line number="290" hits="0" branch="false"/>
               </lines>
             </method>
             <method name="validate_metadata" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
-                <line number="320" hits="0" branch="false"/>
+                <line number="296" hits="0" branch="false"/>
+              </lines>
+            </method>
+            <method name="get_cdisc_keys" signature="" line-rate="0" branch-rate="0" complexity="0">
+              <lines>
+                <line number="302" hits="0" branch="false"/>
+              </lines>
+            </method>
+            <method name="cdisc_data_file" signature="" line-rate="0" branch-rate="0" complexity="0">
+              <lines>
+                <line number="308" hits="0" branch="false"/>
+              </lines>
+            </method>
+            <method name="teal_data_file" signature="" line-rate="0" branch-rate="0" complexity="0">
+              <lines>
+                <line number="314" hits="0" branch="false"/>
+              </lines>
+            </method>
+            <method name="get_join_keys" signature="" line-rate="0" branch-rate="0" complexity="0">
+              <lines>
+                <line number="322" hits="0" branch="false"/>
+                <line number="323" hits="0" branch="false"/>
+                <line number="324" hits="0" branch="false"/>
+                <line number="325" hits="0" branch="false"/>
+                <line number="326" hits="0" branch="false"/>
+              </lines>
+            </method>
+            <method name="get_join_keys&lt;-" signature="" line-rate="0" branch-rate="0" complexity="0">
+              <lines>
+                <line number="334" hits="0" branch="false"/>
+                <line number="335" hits="0" branch="false"/>
+                <line number="336" hits="0" branch="false"/>
+                <line number="337" hits="0" branch="false"/>
+                <line number="338" hits="0" branch="false"/>
               </lines>
             </method>
           </methods>
@@ -544,15 +559,9 @@
             <line number="182" hits="0" branch="false"/>
             <line number="188" hits="0" branch="false"/>
             <line number="194" hits="0" branch="false"/>
-            <line number="202" hits="0" branch="false"/>
-            <line number="203" hits="0" branch="false"/>
-            <line number="204" hits="0" branch="false"/>
-            <line number="205" hits="0" branch="false"/>
+            <line number="200" hits="0" branch="false"/>
             <line number="206" hits="0" branch="false"/>
-            <line number="214" hits="0" branch="false"/>
-            <line number="215" hits="0" branch="false"/>
-            <line number="216" hits="0" branch="false"/>
-            <line number="217" hits="0" branch="false"/>
+            <line number="212" hits="0" branch="false"/>
             <line number="218" hits="0" branch="false"/>
             <line number="224" hits="0" branch="false"/>
             <line number="230" hits="0" branch="false"/>
@@ -570,7 +579,16 @@
             <line number="302" hits="0" branch="false"/>
             <line number="308" hits="0" branch="false"/>
             <line number="314" hits="0" branch="false"/>
-            <line number="320" hits="0" branch="false"/>
+            <line number="322" hits="0" branch="false"/>
+            <line number="323" hits="0" branch="false"/>
+            <line number="324" hits="0" branch="false"/>
+            <line number="325" hits="0" branch="false"/>
+            <line number="326" hits="0" branch="false"/>
+            <line number="334" hits="0" branch="false"/>
+            <line number="335" hits="0" branch="false"/>
+            <line number="336" hits="0" branch="false"/>
+            <line number="337" hits="0" branch="false"/>
+            <line number="338" hits="0" branch="false"/>
           </lines>
         </class>
         <class name="dummy_function.R" filename="R/dummy_function.R" line-rate="0" branch-rate="0" complexity="0">
