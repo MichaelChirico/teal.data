@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.787696019300362" branch-rate="0" lines-covered="653" lines-valid="829" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2023-12-18 12:57:10.18913">
+<coverage line-rate="0.787696019300362" branch-rate="0" lines-covered="653" lines-valid="829" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2023-12-18 13:01:16.218213">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
@@ -2285,7 +2285,8 @@
             </method>
             <method name="default_side_effects" signature="" line-rate="1" branch-rate="0" complexity="0">
               <lines>
-                <line number="283" hits="36" branch="false"/>
+                <line number="282" hits="36" branch="false"/>
+                <line number="284" hits="36" branch="false"/>
                 <line number="285" hits="36" branch="false"/>
                 <line number="286" hits="36" branch="false"/>
                 <line number="287" hits="36" branch="false"/>
@@ -2294,7 +2295,6 @@
                 <line number="290" hits="36" branch="false"/>
                 <line number="291" hits="36" branch="false"/>
                 <line number="292" hits="36" branch="false"/>
-                <line number="293" hits="36" branch="false"/>
               </lines>
             </method>
           </methods>
@@ -2388,7 +2388,8 @@
             <line number="256" hits="60" branch="false"/>
             <line number="257" hits="60" branch="false"/>
             <line number="259" hits="101" branch="false"/>
-            <line number="283" hits="36" branch="false"/>
+            <line number="282" hits="36" branch="false"/>
+            <line number="284" hits="36" branch="false"/>
             <line number="285" hits="36" branch="false"/>
             <line number="286" hits="36" branch="false"/>
             <line number="287" hits="36" branch="false"/>
@@ -2397,7 +2398,6 @@
             <line number="290" hits="36" branch="false"/>
             <line number="291" hits="36" branch="false"/>
             <line number="292" hits="36" branch="false"/>
-            <line number="293" hits="36" branch="false"/>
           </lines>
         </class>
         <class name="utils.R" filename="R/utils.R" line-rate="1" branch-rate="0" complexity="0">
