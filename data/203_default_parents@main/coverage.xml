@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.785012285012285" branch-rate="0" lines-covered="639" lines-valid="814" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2023-12-21 17:05:19.066564">
+<coverage line-rate="0.783147459727385" branch-rate="0" lines-covered="632" lines-valid="807" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2023-12-21 17:08:12.940796">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
   <packages>
-    <package name="teal.data" line-rate="0.785012285012285" branch-rate="0" complexity="0">
+    <package name="teal.data" line-rate="0.783147459727385" branch-rate="0" complexity="0">
       <classes>
         <class name="cdisc_data.R" filename="R/cdisc_data.R" line-rate="0" branch-rate="0" complexity="0">
           <methods>
@@ -703,17 +703,6 @@
                 <line number="46" hits="2" branch="false"/>
               </lines>
             </method>
-            <method name=".merge_parents" signature="" line-rate="1" branch-rate="0" complexity="0">
-              <lines>
-                <line number="56" hits="392" branch="false"/>
-                <line number="57" hits="392" branch="false"/>
-                <line number="58" hits="392" branch="false"/>
-                <line number="59" hits="30" branch="false"/>
-                <line number="61" hits="392" branch="false"/>
-                <line number="62" hits="82" branch="false"/>
-                <line number="64" hits="392" branch="false"/>
-              </lines>
-            </method>
           </methods>
           <lines>
             <line number="17" hits="124" branch="false"/>
@@ -728,13 +717,6 @@
             <line number="27" hits="121" branch="false"/>
             <line number="28" hits="121" branch="false"/>
             <line number="46" hits="2" branch="false"/>
-            <line number="56" hits="392" branch="false"/>
-            <line number="57" hits="392" branch="false"/>
-            <line number="58" hits="392" branch="false"/>
-            <line number="59" hits="30" branch="false"/>
-            <line number="61" hits="392" branch="false"/>
-            <line number="62" hits="82" branch="false"/>
-            <line number="64" hits="392" branch="false"/>
           </lines>
         </class>
         <class name="join_keys-extract.R" filename="R/join_keys-extract.R" line-rate="1" branch-rate="0" complexity="0">
