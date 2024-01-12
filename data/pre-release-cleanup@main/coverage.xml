@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
-<coverage line-rate="0.837239583333333" branch-rate="0" lines-covered="643" lines-valid="768" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-01-12 13:29:42.156363">
+<coverage line-rate="0.840522875816993" branch-rate="0" lines-covered="643" lines-valid="765" branches-covered="0" branches-valid="0" complexity="0" version="3.6.4" timestamp="2024-01-12 13:33:27.6484">
   <sources>
     <source>/__w/teal.data/teal.data/teal.data</source>
   </sources>
   <packages>
-    <package name="teal.data" line-rate="0.837239583333333" branch-rate="0" complexity="0">
+    <package name="teal.data" line-rate="0.840522875816993" branch-rate="0" complexity="0">
       <classes>
         <class name="cdisc_data.R" filename="R/cdisc_data.R" line-rate="0" branch-rate="0" complexity="0">
           <methods>
@@ -387,20 +387,14 @@
           <methods>
             <method name="example_cdisc_data" signature="" line-rate="0" branch-rate="0" complexity="0">
               <lines>
+                <line number="14" hits="0" branch="false"/>
                 <line number="15" hits="0" branch="false"/>
-                <line number="18" hits="0" branch="false"/>
-                <line number="19" hits="0" branch="false"/>
-                <line number="20" hits="0" branch="false"/>
-                <line number="22" hits="0" branch="false"/>
               </lines>
             </method>
           </methods>
           <lines>
+            <line number="14" hits="0" branch="false"/>
             <line number="15" hits="0" branch="false"/>
-            <line number="18" hits="0" branch="false"/>
-            <line number="19" hits="0" branch="false"/>
-            <line number="20" hits="0" branch="false"/>
-            <line number="22" hits="0" branch="false"/>
           </lines>
         </class>
         <class name="formatters_var_labels.R" filename="R/formatters_var_labels.R" line-rate="0.694444444444444" branch-rate="0" complexity="0">
